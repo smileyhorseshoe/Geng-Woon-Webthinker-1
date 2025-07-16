@@ -14,7 +14,7 @@ function setup() {
 //  ellipse(330,300,30,25)
 // }
 function draw() {
-  triangle(200,250,400,250,300,100
+  triangle(200,250,400,250,300,100)
   }
   // Challenge 2: A face using circle() function
 
