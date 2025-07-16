@@ -11,7 +11,7 @@ rect(100,50,400,400)
 circle(430,200,100)
 circle(170,200,100)
 rect(250,200,100,200)
-ellipse(300,300,30,25)
+ellipse(330,300,30,25)
 }
   // Challenge 2: A face using circle() function
 
