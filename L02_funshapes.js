@@ -13,6 +13,9 @@ function setup() {
 //  rect(250,200,100,200)
 //  ellipse(330,300,30,25)
 // }
+function draw() {
+  triangle(200,250,400,250,300,100
+  }
   // Challenge 2: A face using circle() function
 
   // Challenge 3: A house using rect() function
