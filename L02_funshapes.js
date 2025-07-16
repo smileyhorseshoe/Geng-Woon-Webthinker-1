@@ -16,6 +16,7 @@ function setup() {
 function draw() {
   fill("red")
   triangle(200,200,400,200,300,0)
+  stroke()
   }
   // Challenge 2: A face using circle() function
 
