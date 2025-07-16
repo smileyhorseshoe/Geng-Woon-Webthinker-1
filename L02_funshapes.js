@@ -16,6 +16,7 @@ function setup() {
 function draw() {
   fill("red")
   // triangle(200,200,400,200,300,0)
+  strokeWeight(10);
   stroke(78,173,141)
   noFill();
    triangle(200,200,400,200,300,0)
