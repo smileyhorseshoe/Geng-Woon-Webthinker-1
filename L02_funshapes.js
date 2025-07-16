@@ -5,14 +5,14 @@ function setup() {
   createCanvas(600,400)
   background(220); 
 }
-function draw() {
+// function draw() {
   // Challenge 1: An eye using ellipse() function
- rect(100,50,400,400)
- circle(430,200,100)
- circle(170,200,100)
- rect(250,200,100,200)
- ellipse(330,300,30,25)
-}
+//  rect(100,50,400,400)
+//  circle(430,200,100)
+//  circle(170,200,100)
+//  rect(250,200,100,200)
+//  ellipse(330,300,30,25)
+// }
   // Challenge 2: A face using circle() function
 
   // Challenge 3: A house using rect() function
