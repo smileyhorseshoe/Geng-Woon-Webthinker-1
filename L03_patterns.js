@@ -3,9 +3,9 @@ posX = 50;
 // g = 235
 // b = 124
 function setup() {
-    createCanvas(1200, 600);
+    createCanvas(200, 200);
     background(220);
-  //  noLoop(); // Stops continuous drawing
+   noLoop(); // Stops continuous drawing
   }
   
 function draw() {
@@ -17,10 +17,16 @@ function draw() {
 //   fill(i*50,235,135)
 //  circle(x,200,diameter);
 //  x = x + diameter + 10;
-
-
-
-
+// const diameter =50;
+let xpos = 50;
+let ypos = 50;
+// for (let i = 0; i < 8; i++) {
+//   fill(0,colorValue,0);
+//   circle(xpos,ypos,diameter);
+//   xpos = xpos + 60
+//   ypos = ypos +60
+//   colorValue = colorValue + 40
+// }
 
   // Task 1: Colour Gradient
 
@@ -31,12 +37,24 @@ function draw() {
 // g+g+2;
 // b+b+2;
   // Task 3: Colour Alternate
-fill(  (colorValue%2) *255);
-circle(posX,250,100)
-colorValue++;
-posX=posX+105
+// fill(  (colorValue%2) *255);
+// circle(posX,250,100)
+// colorValue++;
+// posX=posX+105
   // Task 4: Grid of Circles
 // C1
 
+// for (let i = 0; i < 8; i++) {
+//     noStroke()
+//   fill(0)
+//   if (i %2===0) fill(255);
+//   rect(xpos,50,50,50);
+//   xpos = xpos + 60;
+// }
+noStroke();
+fill("white")
+rect(0,50,width,100);
+fill("red")
+circle(width / 2, height / 2, 50);
 
 }
