@@ -13,7 +13,7 @@ if (key === 's') {
     // square
 }
 if (key === 'c') {
-    circle(100,200)
+    circle()
 }
 if (key === 't') {
     triangle(0,200,100,0,200,200)
