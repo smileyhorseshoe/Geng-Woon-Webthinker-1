@@ -16,7 +16,7 @@ if (key === 'c') {
     //circle
 }
 if (key === 't') {
-    //triangle
+    triangle(0,200,)
 }
 }
 // function keyPressed() {
