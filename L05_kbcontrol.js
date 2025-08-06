@@ -13,7 +13,7 @@ if (key === 's') {
     rect(50,50,100,100)
 }
 if (key === 'c') {
-    circle(width /2,height /2,200)
+    circle(width /2,height /2,150)
 
 }
 if (key === 't') {
