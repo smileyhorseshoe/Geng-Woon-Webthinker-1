@@ -12,11 +12,11 @@ function draw() {
 }
 function mouseDragged() {
     circle(mouseX, mouseY, diameter);
-    fill( random(0, 255),random(0, 255),random(0, 255));
     diameter = diameter + 0.5;
     noStroke()
 }
 
 function mousePressed() {
     diameter = 2.5
+    fill( random(0, 255),random(0, 255),random(0, 255));
 }
