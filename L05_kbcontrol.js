@@ -10,11 +10,11 @@ function draw() {
 // background(220)
 // rect(width / 2 - rectsize / 2,height / 2 - rectsize / 2,rectsize, rectsize );
 if (key === 's') {
-    // square
+    
 }
 if (key === 'c') {
     circle(width /2,height /2,200)
-    
+
 }
 if (key === 't') {
     triangle(0,200,100,0,200,200)
