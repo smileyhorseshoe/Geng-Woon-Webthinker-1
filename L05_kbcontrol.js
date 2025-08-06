@@ -3,7 +3,7 @@ let rectsize = 50;
 function setup() {
     createCanvas(600,400);
     // background(200);
-    noLoop();
+    // noLoop();
 }
 
 function draw() {
