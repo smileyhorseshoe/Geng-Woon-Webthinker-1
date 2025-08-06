@@ -12,6 +12,7 @@ function draw() {
 }
 function mouseDragged() {
     circle(mouseX, mouseY, diameter);
+    fill()
     diameter = diameter + 0.5;
     noStroke()
 }
