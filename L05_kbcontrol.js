@@ -17,7 +17,7 @@ if (key === 'c') {
 
 }
 if (key === 't') {
-    triangle(0,200,100,0,200,200)
+    triangle(0,200,100,0,150,150)
 }
 }
 // function keyPressed() {
