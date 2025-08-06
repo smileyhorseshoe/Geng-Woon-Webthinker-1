@@ -18,7 +18,7 @@ if (key === 'c') {
     fill( random(0, 255),random(0, 255),random(0, 255));
 }
 if (key === 't') {
-    triangle(50,150,150,50,150,200)
+    triangle(50,150,150,50,150,150)
     fill( random(0, 255),random(0, 255),random(0, 255));
 }
 }
