@@ -1,5 +1,5 @@
-let diameter = 2.5
-let
+let diameter = 2.5;
+let rectsive = 50;
 function setup() {
     createCanvas(600,400);
     background(200);
@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
 
-rect
+rect()
 
 }
 // function mouseDragged() {
