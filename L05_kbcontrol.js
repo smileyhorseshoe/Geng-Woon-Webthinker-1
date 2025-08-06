@@ -15,7 +15,9 @@ function keyPressed() {
     rectsize = 100;
 
 }
-function keyReleased() {}
+function keyReleased() {
+    
+}
 // function mouseDragged() {
 //     circle(mouseX, mouseY, diameter);
 //     diameter = diameter + 0.5;
