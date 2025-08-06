@@ -9,4 +9,6 @@ function draw() {
 
 
 }
-mouseDragged()
+function mouseDragged() {
+    
+}
