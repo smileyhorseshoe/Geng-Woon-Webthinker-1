@@ -13,10 +13,10 @@ function draw() {
     // circle(600,300,dia);
 // }
 }
-    function mouseMoved() {
-        fill( random(0, 255),random(0, 255),random(0, 255));
-        ellipse(mouseX,mouseY,10,10);
-    }
+    // function mouseMoved() {
+    //     fill( random(0, 255),random(0, 255),random(0, 255));
+    //     ellipse(mouseX,mouseY,10,10);
+    // }
 // function mousePressed() {
     // shapeColor = color( random(0, 255),random(0, 255),random(0, 255));
     // dia = dia + 10
@@ -27,3 +27,4 @@ function draw() {
 //     shapeColor = "white";
 
 // }
+f
