@@ -7,7 +7,7 @@ function setup() {
 
 function draw() {
 
-
+rect
 
 }
 // function mouseDragged() {
