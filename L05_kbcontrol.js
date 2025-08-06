@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
 
-rect(width / 2 - rectsize )
+rect(width / 2 - rectsize / 2,height / 2, )
 
 }
 // function mouseDragged() {
