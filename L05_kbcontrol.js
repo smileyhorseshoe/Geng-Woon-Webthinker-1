@@ -15,7 +15,9 @@ if (key === 's') {
 if (key === 'c') {
     //circle
 }
-if (key === 't')
+if (key === 't') {
+    //triangle
+}
 }
 // function keyPressed() {
 //     rectsize = 100;
