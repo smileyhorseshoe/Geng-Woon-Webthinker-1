@@ -9,7 +9,10 @@ function setup() {
 function draw() {
 // background(220)
 // rect(width / 2 - rectsize / 2,height / 2 - rectsize / 2,rectsize, rectsize );
-if (key === 's')
+if (key === 's') {
+    // square
+}
+if (key === 'c')
 }
 // function keyPressed() {
 //     rectsize = 100;
