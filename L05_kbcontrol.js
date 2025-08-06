@@ -1,4 +1,4 @@
-let
+let diameter = 2.5
 function setup() {
     createCanvas(600,400);
     background(200);
