@@ -28,5 +28,5 @@ function draw() {
 
 // }
 function mouseDragged() {
-    
+    ellipse(mouseX,)
 }
