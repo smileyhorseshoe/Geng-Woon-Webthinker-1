@@ -30,5 +30,6 @@ function draw() {
 function mouseDragged() {
     ellipse(mouseX,mouseY,20,20)
     let shapeColor = color( random(0, 255),random(0, 255),random(0, 255));
-    
+    fill(shapeColor)
+    noStroke()
 }
