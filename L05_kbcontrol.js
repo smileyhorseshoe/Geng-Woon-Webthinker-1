@@ -12,7 +12,10 @@ function draw() {
 if (key === 's') {
     // square
 }
-if (key === 'c')
+if (key === 'c') {
+    //circle
+}
+if (key === 't')
 }
 // function keyPressed() {
 //     rectsize = 100;
