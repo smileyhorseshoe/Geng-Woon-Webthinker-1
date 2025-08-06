@@ -2,12 +2,12 @@ let diameter = 2.5;
 let rectsize = 50;
 function setup() {
     createCanvas(200,200);
-    background(200);
+    // background(200);
     // noLoop();
 }
 
 function draw() {
-// background(220)
+background(200)
 // rect(width / 2 - rectsize / 2,height / 2 - rectsize / 2,rectsize, rectsize );
 if (key === 's') {
     rect(50,50,100,100)
