@@ -34,7 +34,7 @@ background(200)
 //     fill("black");
 //     circle(300,200,300);
 // }
-circle(300,200,200);
+
 if (keyIsDown(LEFT_ARROW)) {
     xpos = xpos + 1;
 }
