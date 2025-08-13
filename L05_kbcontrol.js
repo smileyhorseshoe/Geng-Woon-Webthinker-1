@@ -41,14 +41,15 @@ if (keyIsDown(LEFT_ARROW)) {
 if (keyIsDown(RIGHT_ARROW)) {
     xpos = xpos +3;
 }
+xpos = constrain(xpos,0,width);
+
 if (keyIsDown(UP_ARROW)){
     ypos = ypos -3;
 }
 if (keyIsDown(DOWN_ARROW)) {
     ypos = ypos +3;
 }
-// ypos = constrain(ypos,0,height)
-xpos = constrain(xpos,0,width);
+ypos = constrain(ypos,0,height = height - 50)
 fill( random(0, 255),random(0, 255),random(0, 255));
 circle(xpos,ypos,50);
 
