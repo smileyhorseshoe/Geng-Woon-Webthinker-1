@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-background(200)
+background(400,600)
 // rect(width / 2 - rectsize / 2,height / 2 - rectsize / 2,rectsize, rectsize );
 // if (key === 's') {
 //     rect(50,50,100,100)
