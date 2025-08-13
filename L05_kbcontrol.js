@@ -28,9 +28,9 @@ if (keyCode === 38) {
     fill("red");
     circle(300,200,300);
 }
-if (keyCode === DOWN_ARROW) {
-    fill("black")
-    cirlce(300,200,300)
+if (keyCode === 40) {
+    fill("black");
+    cirlce(300,200,300);
 }
 }
 // function keyPressed() {
