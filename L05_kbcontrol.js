@@ -49,7 +49,7 @@ if (keyIsDown(DOWN_ARROW)) {
 }
 fill( random(0, 255),random(0, 255),random(0, 255));
 circle(xpos,ypos,80);
-constraint
+constrain()
 }
 // function keyPressed() {
 //     rectsize = 100;
