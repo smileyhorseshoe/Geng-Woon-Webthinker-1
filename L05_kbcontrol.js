@@ -37,8 +37,8 @@ background(200)
 if (keyIsDown(LEFT_ARROW)) {
     xpos = xpos + 1;
 }
-if (keyCode === 40) {
-    xpos === 
+if (keyCode === RIGHT_A) {
+    xpos = xpos -1;
 }
 }
 // function keyPressed() {
