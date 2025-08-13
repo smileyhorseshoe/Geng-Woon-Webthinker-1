@@ -38,8 +38,7 @@ if (keyIsDown(LEFT_ARROW)) {
     xpos = xpos + 1;
 }
 if (keyCode === 40) {
-    fill("black");
-    circle(300,200,300);
+    xpos === 
 }
 }
 // function keyPressed() {
