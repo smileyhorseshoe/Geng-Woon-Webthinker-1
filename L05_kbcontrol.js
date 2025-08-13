@@ -24,6 +24,9 @@ background(200)
 // textSize(48);
 // text(key,    200,70 );
 // text(keyCode,200,140);
+if (key === 38) {
+    
+}
 }
 // function keyPressed() {
 //     rectsize = 100;
