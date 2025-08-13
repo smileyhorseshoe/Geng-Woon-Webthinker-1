@@ -35,8 +35,7 @@ background(200)
 //     circle(300,200,300);
 // }
 if (keyIsDown(LEFT_ARROW)) {
-    fill("red");
-    circle(300,200,300);
+    xpos = xpos + 1;
 }
 if (keyCode === 40) {
     fill("black");
