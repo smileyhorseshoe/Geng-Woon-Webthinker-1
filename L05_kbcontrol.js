@@ -26,9 +26,9 @@ background(200)
 // textSize(48);
 // text(key,    200,70 );
 // text(keyCode,200,140);
-// if (keyCode === 38) {
-//     fill("red");
-//     circle(300,200,300);
+if (keyCode === 38) {
+    fill("red");
+    circle(300,200,300);
 // }
 // if (keyCode === 40) {
 //     fill("black");
