@@ -1,7 +1,7 @@
 let diameter = 2.5;
 let rectsize = 50;
 function setup() {
-    createCanvas(600,600);
+    createCanvas(600,400);
     // background(200);
     // noLoop();
 }
