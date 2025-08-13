@@ -21,9 +21,9 @@ background(200)
 //     triangle(0,200,100,0,200,200)
 //     fill( random(0, 255),random(0, 255),random(0, 255));
 // }
-textSize(48);
-text(key,    200,70 );
-text(keyCode,200,140);
+// textSize(48);
+// text(key,    200,70 );
+// text(keyCode,200,140);
 }
 // function keyPressed() {
 //     rectsize = 100;
