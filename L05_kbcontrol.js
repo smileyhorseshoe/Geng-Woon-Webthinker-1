@@ -26,7 +26,7 @@ background(200)
 // text(keyCode,200,140);
 if (key === 38) {
     circle(300,200,100)
-    fill()
+    fill("red")
 }
 }
 // function keyPressed() {
