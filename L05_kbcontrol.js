@@ -47,7 +47,8 @@ if (keyIsDown(UP_ARROW)){
 if (keyIsDown(DOWN_ARROW)) {
     ypos = ypos +3;
 }
-ypos = constrain()
+ypos = constrain(ypos,0,height)
+xpos = constrain(xpos,0,length)
 fill( random(0, 255),random(0, 255),random(0, 255));
 circle(xpos,ypos,80);
 
