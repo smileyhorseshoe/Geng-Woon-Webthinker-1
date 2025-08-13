@@ -36,7 +36,7 @@ background(200)
 // }
 
 if (keyIsDown(LEFT_ARROW)) {
-    xpos = xpos + 1;
+    xpos = xpos -1;
 }
 if (keyIsDown(RIGHT_ARROW)) {
     xpos = xpos +1;
