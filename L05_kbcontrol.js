@@ -21,6 +21,7 @@ background(200)
 //     triangle(0,200,100,0,200,200)
 //     fill( random(0, 255),random(0, 255),random(0, 255));
 // }
+textSize()
 }
 // function keyPressed() {
 //     rectsize = 100;
