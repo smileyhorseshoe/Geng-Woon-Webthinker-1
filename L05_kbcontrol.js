@@ -34,7 +34,7 @@ background(200)
 //     fill("black");
 //     circle(300,200,300);
 // }
-if (keyCode === 38) {
+if (keyIsDown(LEFT_ARROW)) {
     fill("red");
     circle(300,200,300);
 }
