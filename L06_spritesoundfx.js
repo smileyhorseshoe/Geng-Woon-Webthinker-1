@@ -2,7 +2,7 @@ let soundEffect,bgMusic,staticImage;
 function preload() {
 soundEffect = loadSound('assets/pop.mp3');
 bgmusic = loadSound('assets/bossaNova.mp3');
-staticImage = loadImage('assets/pico-a.png')
+staticImage = loadImage('assets/pico-a.png');
 }
 function setup() {
     createCanvas(1200,600);
