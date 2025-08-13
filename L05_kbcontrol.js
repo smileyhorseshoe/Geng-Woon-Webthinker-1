@@ -44,8 +44,9 @@ if (keyIsDown(RIGHT_ARROW)) {
 if (keyIsDown(UP_ARROW)){
     ypos = ypos + 1
 }
+if (keyIsDown)
 fill(255,0,0)
-circle(xpos,hei)
+circle(xpos,height/2,80)
 }
 // function keyPressed() {
 //     rectsize = 100;
