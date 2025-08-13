@@ -36,7 +36,7 @@ background(200)
 // }
 
 if (keyIsDown(LEFT_ARROW)) {
-    xpos = xpos -1;
+    xpos = xpos -3;
 }
 if (keyIsDown(RIGHT_ARROW)) {
     xpos = xpos +3;
@@ -49,6 +49,7 @@ if (keyIsDown(DOWN_ARROW)) {
 }
 fill( random(0, 255),random(0, 255),random(0, 255));
 circle(xpos,ypos,80);
+constraint
 }
 // function keyPressed() {
 //     rectsize = 100;
