@@ -42,10 +42,10 @@ if (keyIsDown(RIGHT_ARROW)) {
     xpos = xpos +1;
 }
 if (keyIsDown(UP_ARROW)){
-    ypos = ypos -1;
+    ypos = ypos -3;
 }
 if (keyIsDown(DOWN_ARROW)) {
-    ypos = ypos +1;
+    ypos = ypos +3;
 }
 fill( random(0, 255),random(0, 255),random(0, 255));
 circle(xpos,ypos,80);
