@@ -37,9 +37,13 @@ background(200)
 if (keyIsDown(LEFT_ARROW)) {
     xpos = xpos + 1;
 }
-if (keyCode === RIGHT_A) {
+if (keyIsDown(RIGHT_ARROW)) {
     xpos = xpos -1;
 }
+if (keyIsDown(UP_ARROW)){
+    
+}
+
 }
 // function keyPressed() {
 //     rectsize = 100;
