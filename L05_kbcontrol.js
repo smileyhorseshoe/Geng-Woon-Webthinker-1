@@ -44,6 +44,7 @@ if (keyIsDown(RIGHT_ARROW)) {
 if (keyIsDown(UP_ARROW)){
     ypos = ypos + 1
 }
+fill(255,0,0)
 
 }
 // function keyPressed() {
