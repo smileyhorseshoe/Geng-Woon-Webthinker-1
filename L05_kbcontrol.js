@@ -47,7 +47,7 @@ if (keyIsDown(UP_ARROW)){
 if (keyIsDown(DOWN_ARROW)) {
     ypos = ypos +1;
 }
-fill(255,0,0);
+fill( random(0, 255),random(0, 255),random(0, 255));
 circle(xpos,ypos,80);
 }
 // function keyPressed() {
