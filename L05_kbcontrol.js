@@ -47,10 +47,10 @@ if (keyIsDown(UP_ARROW)){
 if (keyIsDown(DOWN_ARROW)) {
     ypos = ypos +3;
 }
-ypos = constrain(ypos,0,height = height - 80)
+ypos = constrain(ypos,0,height = height - 50)
 xpos = constrain(xpos,0,width = width)
 fill( random(0, 255),random(0, 255),random(0, 255));
-circle(xpos,ypos,80);
+circle(xpos,ypos,50);
 
 }
 // function keyPressed() {
