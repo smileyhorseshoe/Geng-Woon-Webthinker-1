@@ -1,4 +1,4 @@
-let diameter = 2.5;
+let diameter = 50;
 let rectsize = 50;
 let xpos = 50;
 let ypos = 50;
@@ -50,7 +50,7 @@ if (keyIsDown(DOWN_ARROW)) {
 ypos = constrain(ypos,0,height = height - 50)
 // xpos = constrain(xpos,0,width = width)
 fill( random(0, 255),random(0, 255),random(0, 255));
-circle(xpos,ypos,50);
+circle(xpos,ypos,diameter);
 
 }
 // function keyPressed() {
