@@ -30,7 +30,7 @@ if (keyCode === 38) {
 }
 if (keyCode === 40) {
     fill("black");
-    cirlce(300,200,300);
+    circle(300,200,300);
 }
 }
 // function keyPressed() {
