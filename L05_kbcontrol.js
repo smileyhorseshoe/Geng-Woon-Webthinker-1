@@ -22,7 +22,8 @@ background(400,600)
 //     fill( random(0, 255),random(0, 255),random(0, 255));
 // }
 textSize(48);
-text(key,    250,70 )
+text(key,    250,70 );
+text(keyCode,250,140);
 }
 // function keyPressed() {
 //     rectsize = 100;
