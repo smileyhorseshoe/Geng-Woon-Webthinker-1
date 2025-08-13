@@ -29,7 +29,7 @@ background(200)
 if (keyCode === 38) {
     fill("red");
     circle(300,200,300);
-// }
+}
 // if (keyCode === 40) {
 //     fill("black");
 //     circle(300,200,300);
