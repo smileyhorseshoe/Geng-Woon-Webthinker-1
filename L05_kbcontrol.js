@@ -39,13 +39,13 @@ if (keyIsDown(LEFT_ARROW)) {
     xpos = xpos + 1;
 }
 if (keyIsDown(RIGHT_ARROW)) {
-    xpos = xpos -1;
+    xpos = xpos +1;
 }
 if (keyIsDown(UP_ARROW)){
     ypos = ypos + 1
 }
 if (keyIsDown(UP_ARROW)) {
-    
+    ypos = ypos - 1
 }
 fill(255,0,0)
 circle(xpos,height/2,80)
