@@ -1,5 +1,7 @@
 let diameter = 2.5;
 let rectsize = 50;
+let xpos = 50;
+let ypos = 50;
 function setup() {
     createCanvas(600,400);
     // background(200);
