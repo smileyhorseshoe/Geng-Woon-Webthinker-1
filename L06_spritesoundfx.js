@@ -29,7 +29,6 @@ if (keyIsDown(DOWN_ARROW)) {
     ypos = ypos +3;
 }
 ypos = constrain(ypos,30,340)
-rect(150,50,35,35)
 }
 
 
