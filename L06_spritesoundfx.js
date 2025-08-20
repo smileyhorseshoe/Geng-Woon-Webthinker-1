@@ -28,6 +28,7 @@ if (keyIsDown(UP_ARROW)){
 if (keyIsDown(DOWN_ARROW)) {
     ypos = ypos +3;
 }
+ypos()
 rect(150,50,35,35)
 }
 
