@@ -12,9 +12,9 @@ function setup() {
 }
 
 function draw() {
-noFill()
-stroke("grey")
-rect(10,10,300,300)
+noFill();
+stroke("grey");
+rect(10,10,300,300);
 
 if (keyIsDown(LEFT_ARROW)) {
     xpos = xpos -3;
