@@ -7,6 +7,8 @@ staticImage = loadImage('assets/pico-a.png');
 function setup() {
     createCanvas(400,400);
     background(200);
+    xpos = width/2
+    
 }
 
 function draw() {
