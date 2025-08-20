@@ -10,7 +10,7 @@ function setup() {
 }
 
 function draw() {
-
+square()
 }
 if (keyIsDown(LEFT_ARROW)) {
     xpos = xpos -3;
