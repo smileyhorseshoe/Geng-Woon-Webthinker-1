@@ -9,7 +9,7 @@ function setup() {
     background("skyblue");
     xpos = width/2
     ypos = height/2
-    bgMusic.loop();
+    bgmusic.loop();
 }
 
 function draw() {
