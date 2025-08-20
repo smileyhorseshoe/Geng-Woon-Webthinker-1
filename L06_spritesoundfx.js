@@ -20,21 +20,21 @@ image(staticImage, xpos ,ypos ,110 ,113);
 // fill("grey")
 // rect(xpos,ypos,35,35)
 
-// if (keyIsDown(LEFT_ARROW)) {
-//     xpos = xpos -3;
-// }
-// if (keyIsDown(RIGHT_ARROW)) {
-//     xpos = xpos +3;
-// }
-// xpos = constrain(xpos,0+10,width - 225);
+if (keyIsDown(LEFT_ARROW)) {
+    xpos = xpos -3;
+}
+if (keyIsDown(RIGHT_ARROW)) {
+    xpos = xpos +3;
+}
+xpos = constrain(xpos,0+1,width - 225);
 
-// if (keyIsDown(UP_ARROW)){
-//     ypos = ypos -3;
-// }
-// if (keyIsDown(DOWN_ARROW)) {
-//     ypos = ypos +3;
-// }
-// ypos = constrain(ypos,0+10,height-225)
+if (keyIsDown(UP_ARROW)){
+    ypos = ypos -3;
+}
+if (keyIsDown(DOWN_ARROW)) {
+    ypos = ypos +3;
+}
+ypos = constrain(ypos,0+10,height-225)
 }
 
 
