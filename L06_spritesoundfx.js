@@ -15,6 +15,7 @@ function draw() {
 noFill();
 stroke("grey");
 rect(10,10,300,300);
+fill("grey")
 rect(xpos,ypos,35,35)
 
 if (keyIsDown(LEFT_ARROW)) {
