@@ -15,6 +15,7 @@ function draw() {
 noFill();
 stroke("grey");
 rect(10,10,300,300);
+rect(3)
 
 if (keyIsDown(LEFT_ARROW)) {
     xpos = xpos -3;
