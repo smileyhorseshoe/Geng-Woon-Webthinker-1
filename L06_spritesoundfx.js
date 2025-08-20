@@ -25,7 +25,7 @@ if (keyIsDown(LEFT_ARROW)) {
 if (keyIsDown(RIGHT_ARROW)) {
     xpos = xpos +3;
 }
-xpos = constrain(xpos,0+25,width - 200);
+xpos = constrain(xpos,0+45,width - 200);
 
 if (keyIsDown(UP_ARROW)){
     ypos = ypos -3;
