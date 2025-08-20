@@ -10,6 +10,7 @@ function setup() {
 }
 
 function draw() {
+noFill()
 rect(10,10,300,300)
 }
 if (keyIsDown(LEFT_ARROW)) {
