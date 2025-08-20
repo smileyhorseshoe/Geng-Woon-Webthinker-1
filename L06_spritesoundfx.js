@@ -9,6 +9,7 @@ function setup() {
     background("skyblue");
     xpos = width/2
     ypos = height/2
+    bg
 }
 
 function draw() {
