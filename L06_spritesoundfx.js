@@ -5,7 +5,7 @@ bgmusic = loadSound('assets/bossaNova.mp3');
 staticImage = loadImage('assets/pico-a.png');
 }
 function setup() {
-    createCanvas(400,400);
+    createCanvas(500,500);
     background(200);
     xpos = width/2
     ypos = height/2
