@@ -12,6 +12,7 @@ function setup() {
 }
 
 function draw() {
+background(220)
 noFill();
 stroke("grey");
 rect(10,10,300,300);
