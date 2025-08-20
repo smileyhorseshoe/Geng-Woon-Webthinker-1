@@ -10,7 +10,7 @@ function setup() {
 }
 
 function draw() {
-rect(200,200,300,300)
+rect(10,10,300,300)
 }
 if (keyIsDown(LEFT_ARROW)) {
     xpos = xpos -3;
