@@ -34,7 +34,7 @@ if (keyIsDown(UP_ARROW)){
 if (keyIsDown(DOWN_ARROW)) {
     ypos = ypos +3;
 }
-ypos = constrain(ypos,0+1,height-220)
+ypos = constrain(ypos,0+1,height-100)
 }
 
 
