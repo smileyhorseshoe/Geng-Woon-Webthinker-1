@@ -11,6 +11,7 @@ function setup() {
 
 function draw() {
 noFill()
+str
 rect(10,10,300,300)
 }
 if (keyIsDown(LEFT_ARROW)) {
