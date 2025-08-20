@@ -20,7 +20,7 @@ if (keyIsDown(LEFT_ARROW)) {
 if (keyIsDown(RIGHT_ARROW)) {
     xpos = xpos +3;
 }
-xpos = constrain(xpos,0 + 25,width - 25);
+xpos = constrain(height,0 + 25,width - 25);
 
 if (keyIsDown(UP_ARROW)){
     ypos = ypos -3;
@@ -28,7 +28,7 @@ if (keyIsDown(UP_ARROW)){
 if (keyIsDown(DOWN_ARROW)) {
     ypos = ypos +3;
 }
-ypos = constrain(ypos,0+25,height-25)
+ypos = constrain(width,0+25,height-25)
 rect(150,50,35,35)
 
 
