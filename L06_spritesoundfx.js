@@ -13,7 +13,7 @@ function draw() {
 noFill()
 stroke("grey")
 rect(10,10,300,300)
-}
+
 if (keyIsDown(LEFT_ARROW)) {
     xpos = xpos -3;
 }
@@ -30,3 +30,12 @@ if (keyIsDown(DOWN_ARROW)) {
 }
 ypos = constrain(ypos,0+25,height-25)
 rect(150,50,35,35)
+
+
+
+
+
+
+
+
+}
