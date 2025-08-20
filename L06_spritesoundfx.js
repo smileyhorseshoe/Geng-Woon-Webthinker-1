@@ -8,7 +8,7 @@ function setup() {
     createCanvas(400,400);
     background(200);
     xpos = width/2
-    
+    ypos = height/2
 }
 
 function draw() {
