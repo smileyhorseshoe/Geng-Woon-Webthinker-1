@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-// background(220)
+background("skyblue")
 // noFill();
 // stroke("grey");
 // rect(10,10,300,300);
