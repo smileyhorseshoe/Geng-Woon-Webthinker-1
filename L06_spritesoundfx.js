@@ -8,7 +8,7 @@ function setup() {
     createCanvas(500,500);
     xpos = width/2
     ypos = height/2
-    bgmusic.loop();
+    // bgmusic.loop();
 }
 
 function draw() {
@@ -20,7 +20,7 @@ image(staticImage, xpos ,ypos ,110 ,133);
 // fill("grey")
 // rect(xpos,ypos,35,35)
 if (keyIsDown(32)) {
-    soundEffect.play();
+    bgusic.loop();
 }
 // if (key == 's') {
 //     bgmusic.pause();
@@ -28,12 +28,12 @@ if (keyIsDown(32)) {
 // if (key == 'r') {
 //     bgmusic.loop()
 // }
-if (keyIsDown(LEFT_ARROW)) {
-    // staticImageX = staticImageX -3;
-}
-if (keyIsDown(RIGHT_ARROW)) {
-    // staticImageX = staticImageX +3;
-}
+// if (keyIsDown(LEFT_ARROW)) {
+//     xpos = xpos -3;
+// }
+// if (keyIsDown(RIGHT_ARROW)) {
+//     xpos = xpos +3;
+// }
 // xpos = constrain(xpos,0+1,width - 110);
 
 // if (keyIsDown(UP_ARROW)){
