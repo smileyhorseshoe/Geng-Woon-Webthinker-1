@@ -6,8 +6,8 @@ staticImage = loadImage('assets/pico-a.png');
 }
 function setup() {
     createCanvas(500,500);
-    xpos = width/2
-    ypos = height/2
+    staticX = width/2
+    staticY = height/2
     // bgMusic.loop();
 }
 
