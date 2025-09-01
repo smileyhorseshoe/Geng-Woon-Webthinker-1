@@ -29,10 +29,10 @@ if (keyIsDown(32)) {
 //     bgmusic.loop()
 // }
 if (keyIsDown(LEFT_ARROW)) {
-    staticImageX = staticImageX -3;
+    // staticImageX = staticImageX -3;
 }
 if (keyIsDown(RIGHT_ARROW)) {
-    staticImageX = staticImageX +3;
+    // staticImageX = staticImageX +3;
 }
 // xpos = constrain(xpos,0+1,width - 110);
 
