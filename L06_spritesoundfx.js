@@ -1,7 +1,7 @@
 let soundEffect,bgMusic,staticImage;
 function preload() {
 soundEffect = loadSound('assets/pop.mp3');
-bgmusic = loadSound('assets/bossaNova.mp3');
+bgMusic = loadSound('assets/bossaNova.mp3');
 staticImage = loadImage('assets/pico-a.png');
 }
 function setup() {
@@ -20,7 +20,7 @@ image(staticImage, xpos ,ypos ,110 ,133);
 // fill("grey")
 // rect(xpos,ypos,35,35)
 if (keyIsDown(32)) {
-    bgmusic.loop();
+    bgMusic.loop();
 }
 // if (key == 's') {
 //     bgmusic.pause();
