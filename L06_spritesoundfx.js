@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-background("skyblue")
+background("lightblue")
 image(staticImage, xpos ,ypos ,110 ,113);
 // noFill();
 // stroke("grey");
