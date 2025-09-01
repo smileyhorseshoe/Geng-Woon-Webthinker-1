@@ -13,7 +13,9 @@ function setup() {
 
 function draw() {
 background('lightblue')
-if (staticX = 0 || staticX == 250)
+if (staticX = 0 || staticX == 250) {
+    background('red')
+}
  image(staticImage, staticX ,staticY ,110 ,133);
 // noFill();
 // stroke("grey");
