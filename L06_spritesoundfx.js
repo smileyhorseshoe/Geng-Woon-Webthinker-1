@@ -1,7 +1,7 @@
 let soundEffect,bgMusic,staticImage;
 function preload() {
 soundEffect = loadSound('assets/pop.mp3')
-bgMusic = load
+bgMusic = loadSound('assets/bossaNova.mp3')
 }
 function setup() {
     createCanvas(500,500);
