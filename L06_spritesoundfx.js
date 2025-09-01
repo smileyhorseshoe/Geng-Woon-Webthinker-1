@@ -28,12 +28,12 @@ if (keyIsDown(32)) {
 // if (key == 'r') {
 //     bgmusic.loop()
 // }
-// if (keyIsDown(LEFT_ARROW)) {
-//     staticImageX = staticImageX -3;
-// }
-// if (keyIsDown(RIGHT_ARROW)) {
-//     xpos = xpos +3;
-// }
+if (keyIsDown(LEFT_ARROW)) {
+    staticImageX = staticImageX -3;
+}
+if (keyIsDown(RIGHT_ARROW)) {
+    staticImageX = staticImageX +3;
+}
 // xpos = constrain(xpos,0+1,width - 110);
 
 // if (keyIsDown(UP_ARROW)){
