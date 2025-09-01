@@ -29,10 +29,10 @@ image(staticImage, xpos ,ypos ,110 ,133);
 //     bgmusic.loop()
 // }
 if (keyIsDown(LEFT_ARROW)) {
-    staticX = xpos -3;
+    staticX = staticX -3;
 }
 if (keyIsDown(RIGHT_ARROW)) {
-    xpos = xpos +3;
+    staticX = staticX +3;
 }
 xpos = constrain(xpos,0+1,width - 110);
 if (keyIsDown(UP_ARROW)) {
