@@ -13,7 +13,7 @@ function setup() {
 
 function draw() {
 background('lightblue')
-image(staticImage, xpos ,ypos ,110 ,133);
+image(staticImage, staticX ,staticY ,110 ,133);
 // noFill();
 // stroke("grey");
 // rect(10,10,300,300);
