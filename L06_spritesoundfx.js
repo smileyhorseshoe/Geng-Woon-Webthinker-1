@@ -8,7 +8,7 @@ function setup() {
     createCanvas(500,500);
     xpos = width/2
     ypos = height/2
-    // bgmusic.loop();
+    bgmusic.loop();
 }
 
 function draw() {
