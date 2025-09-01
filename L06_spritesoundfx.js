@@ -20,7 +20,7 @@ image(staticImage, xpos ,ypos ,110 ,133);
 // fill("grey")
 // rect(xpos,ypos,35,35)
 if (keyIsDown(32)) {
-    bgmusic.loop();
+    soundEffect.play();
 }
 // if (key == 's') {
 //     bgmusic.pause();
@@ -34,16 +34,16 @@ if (keyIsDown(LEFT_ARROW)) {
 if (keyIsDown(RIGHT_ARROW)) {
     xpos = xpos +3;
 }
-// xpos = constrain(xpos,0+1,width - 110);
+xpos = constrain(xpos,0+1,width - 110);
 
-// if (keyIsDown(UP_ARROW)){
-//     ypos = ypos -3;
+if (keyIsDown(UP_ARROW)){
+    ypos = ypos -3;
 // }
 // if (keyIsDown(DOWN_ARROW)) {
 //     ypos = ypos +3;
-// }
+}
 
-// ypos = constrain(ypos,0+2,height-130)
+ypos = constrain(ypos,0+2,height-130)
 }
 
 
