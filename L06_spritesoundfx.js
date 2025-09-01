@@ -26,7 +26,7 @@ if (key == 's') {
     bgMusic.pause();
 }
 if (key == 'r') {
-    bgMusic.play();
+    bgMusic.loop()
 }
 // if (keyIsDown(LEFT_ARROW)) {
 //     xpos = xpos -3;
