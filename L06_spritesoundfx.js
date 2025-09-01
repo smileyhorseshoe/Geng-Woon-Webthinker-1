@@ -36,10 +36,10 @@ if (keyIsDown(RIGHT_ARROW)) {
 }
 staticX = constrain(staticX,0+1,width - 110);
 if (keyIsDown(UP_ARROW)) {
-    staticY = ypos - 3
+    staticY = staticY - 3
 }
 if (keyIsDown(DOWN_ARROW)) {
-    ypos = ypos + 3
+    staticY = ypos + 3
 }
 ypos = constrain(ypos,0+2,height-130)
 
