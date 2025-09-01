@@ -23,10 +23,10 @@ if (keyIsDown(32)) {
     soundEffect.play();
 }
 if (key == 's') {
-    bgMusic.pause();
+    bgmusic.pause();
 }
 if (key == 'r') {
-    bgMusic.loop()
+    bgmusic.loop()
 }
 // if (keyIsDown(LEFT_ARROW)) {
 //     xpos = xpos -3;
