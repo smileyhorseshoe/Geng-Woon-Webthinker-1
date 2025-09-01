@@ -13,8 +13,8 @@ function setup() {
 
 function draw() {
 background('lightblue')
-if (staticX = 0 || staticX)
-image(staticImage, staticX ,staticY ,110 ,133);
+if (staticX = 0 || staticX == 250)
+ image(staticImage, staticX ,staticY ,110 ,133);
 // noFill();
 // stroke("grey");
 // rect(10,10,300,300);
