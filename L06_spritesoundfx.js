@@ -20,7 +20,7 @@ image(staticImage, xpos ,ypos ,110 ,133);
 // fill("grey")
 // rect(xpos,ypos,35,35)
 if (keyIsDown(32)) {
-    bgusic.loop();
+    bgmusic.loop();
 }
 // if (key == 's') {
 //     bgmusic.pause();
