@@ -29,7 +29,7 @@ if (keyIsDown(32)) {
 //     bgmusic.loop()
 // }
 // if (keyIsDown(LEFT_ARROW)) {
-//     xpos = xpos -3;
+//     staticImageX = staticImageX -3;
 // }
 // if (keyIsDown(RIGHT_ARROW)) {
 //     xpos = xpos +3;
