@@ -13,14 +13,14 @@ function setup() {
 
 function draw() {
 background('lightblue')
-image(staticImage, staticX ,staticY ,110 ,133);
+image(staticImage, xpos ,ypos ,110 ,133);
 // noFill();
 // stroke("grey");
 // rect(10,10,300,300);
 // fill("grey")
 // rect(xpos,ypos,35,35)
-if (keyIsDown(32)) {
-    soundEffect.play();
+// if (keyIsDown(32)) {
+//     soundEffect.play();
 // }
 // if (key == 's') {
 //     bgmusic.pause();
@@ -47,4 +47,4 @@ staticY = constrain(staticY,0+2,height-130)
 
 
 
-}
+
