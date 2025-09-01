@@ -19,15 +19,14 @@ image(staticImage, xpos ,ypos ,110 ,133);
 // rect(10,10,300,300);
 // fill("grey")
 // rect(xpos,ypos,35,35)
-
+else if (keyIsDown(32)) {
+    soundEffect.play();
+}
 if (keyIsDown(LEFT_ARROW)) {
     xpos = xpos -3;
 }
 if (keyIsDown(RIGHT_ARROW)) {
     xpos = xpos +3;
-}
-else if (keyIsDown(32)) {
-    soundEffect.play();
 }
 xpos = constrain(xpos,0+1,width - 110);
 
