@@ -6,7 +6,6 @@ staticImage = loadImage('assets/pico-a.png');
 }
 function setup() {
     createCanvas(500,500);
-    background("skyblue");
     xpos = width/2
     ypos = height/2
     bgmusic.loop();
