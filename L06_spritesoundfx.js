@@ -19,7 +19,7 @@ image(staticImage, xpos ,ypos ,110 ,133);
 // rect(10,10,300,300);
 // fill("grey")
 // rect(xpos,ypos,35,35)
-else if (keyIsDown(32)) {
+if (keyIsDown(32)) {
     soundEffect.play();
 }
 if (keyIsDown(LEFT_ARROW)) {
