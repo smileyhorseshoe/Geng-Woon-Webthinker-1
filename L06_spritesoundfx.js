@@ -22,22 +22,22 @@ image(staticImage, xpos ,ypos ,110 ,133);
 if (keyIsDown(32)) {
     soundEffect.play();
 }
-if (keyIsDown(LEFT_ARROW)) {
-    xpos = xpos -3;
-}
-if (keyIsDown(RIGHT_ARROW)) {
-    xpos = xpos +3;
-}
-xpos = constrain(xpos,0+1,width - 110);
+// if (keyIsDown(LEFT_ARROW)) {
+//     xpos = xpos -3;
+// }
+// if (keyIsDown(RIGHT_ARROW)) {
+//     xpos = xpos +3;
+// }
+// xpos = constrain(xpos,0+1,width - 110);
 
-if (keyIsDown(UP_ARROW)){
-    ypos = ypos -3;
-}
-if (keyIsDown(DOWN_ARROW)) {
-    ypos = ypos +3;
-}
+// if (keyIsDown(UP_ARROW)){
+//     ypos = ypos -3;
+// }
+// if (keyIsDown(DOWN_ARROW)) {
+//     ypos = ypos +3;
+// }
 
-ypos = constrain(ypos,0+2,height-130)
+// ypos = constrain(ypos,0+2,height-130)
 }
 
 
