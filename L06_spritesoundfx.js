@@ -22,8 +22,9 @@ image(staticImage, xpos ,ypos ,110 ,133);
 if (keyIsDown(32)) {
     soundEffect.play();
 }
-if (key == 's')
-
+if (key === 's') {
+    bgMusic.pause();
+}
 // if (keyIsDown(LEFT_ARROW)) {
 //     xpos = xpos -3;
 // }
