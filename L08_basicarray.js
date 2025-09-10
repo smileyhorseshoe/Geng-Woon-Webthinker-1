@@ -1,7 +1,7 @@
 let velocityX = 2;
 let xpos = 200;
 let ypos =200;
-let favouriteFodos =  ["Gyudon", "Udon", "Sushi", "Pasta"]
+
 
 
 
@@ -10,6 +10,7 @@ function setup() {
     background("black");
     fill("cyan")
     textSize(32);
+    let favouriteFodos =  ["Gyudon", "Udon", "Sushi", "Pasta"];
     // text("My name is Geng Woon", 50,50)
     // text("I am 10 this year", 50, 100)
     // text("My favourite activity is swimming", 50, 150)
