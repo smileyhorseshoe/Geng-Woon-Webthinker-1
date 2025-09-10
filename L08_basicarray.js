@@ -15,14 +15,14 @@ function setup() {
     // text("I am 10 this year", 50, 100)
     // text("My favourite activity is swimming", 50, 150)
     console.log("I love" + favFoods.length + ".xoa")
-    for ( let index=0; index < favFoods.length; index++) {
+    // for ( let index=0; index < favFoods.length; index++) {
     let yValue = 80;
     for (let index =0; index < favFoods.length; index++) {
         text( "I love " + favFood[index] + ".")
         yvalue = yvalue + 55
     }
     }
-}
+
 
 function draw() {
 // background(220); 
