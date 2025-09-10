@@ -1,4 +1,4 @@
-let ballSpeedX = 2;
+let SpeedX = 2;
 
 
 
