@@ -17,5 +17,7 @@ function setup() {
 }
 
 function draw() {
+    noStroke();
+    ballX = ballX + ballSpeedX
     
 }
