@@ -15,6 +15,7 @@ function setup() {
 
 function draw() {
 background("black")
+text("the")
 
 
 
