@@ -10,7 +10,8 @@ function setup() {
     background("black");
     fill("cyan")
     textSize(32);
-    text("p5.js libary", 80 , 200)
+    text("My name is Geng Woon", 50,50)
+    text
 }
 
 function draw() {
