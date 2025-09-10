@@ -15,7 +15,7 @@ function setup() {
 
 function draw() {
 background("black")
-textSize(100)
+textSize(18)
 text("the beginning of the star wars story...", 0 ,200)
 
 
