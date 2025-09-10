@@ -16,8 +16,9 @@ rect(xpos,ypos,50,50)
 
 xpos = xpos + velocityX;
 
-if ( xpos < 0 || xpos > width) P
-
+if ( xpos < 0 || xpos > width) {
+    fill( random(255))
+}
 
 
 
