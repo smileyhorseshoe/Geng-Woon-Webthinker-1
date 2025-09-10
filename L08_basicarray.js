@@ -10,7 +10,7 @@ function setup() {
     background("black");
     fill("cyan")
     textSize(32);
-    text("p5.js libary", 80 , 200)
+    text(")
 }
 
 function draw() {
