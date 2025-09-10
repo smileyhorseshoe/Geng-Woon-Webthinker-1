@@ -3,12 +3,12 @@ let SpeedX = 2;
 
 
 function setup() {
-    createCanvas(1200,600);
+    createCanvas(600,400);
     background(200);
 }
 
 function draw() {
-rect(600,300,50,50)
+rect(300,200,50,50)
 
 
 
