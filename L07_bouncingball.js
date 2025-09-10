@@ -26,5 +26,5 @@ function draw() {
     if (ballX < 0+ballSize/2) {
         ballspeedX = ballSpeedX
     }
-    fill
+    FileList( random(0,255))
 }
