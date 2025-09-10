@@ -11,7 +11,8 @@ function setup() {
     fill("cyan")
     textSize(32);
     text("My name is Geng Woon", 50,50)
-    text
+    text("I am 10 this year", 50, 100)
+    text("")
 }
 
 function draw() {
