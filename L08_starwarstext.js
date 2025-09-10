@@ -15,7 +15,7 @@ function setup() {
 
 function draw() {
 background("black")
-text("the beginning of the star wars story...", )
+text("the beginning of the star wars story...", 0 ,0)
 
 
 
