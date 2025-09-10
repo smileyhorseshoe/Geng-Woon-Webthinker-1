@@ -9,7 +9,7 @@ let SpeedY = 2;
 
 
 function setup() {
-    createCanvas(600,400);
+    createCanvas(400,400);
     background(200);
 }
 
