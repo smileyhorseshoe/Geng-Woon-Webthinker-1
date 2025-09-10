@@ -1,4 +1,4 @@
-
+let velocityX = 2;
 let xpos = 200;
 let ypos =200;
 
@@ -12,9 +12,11 @@ function setup() {
 
 function draw() {
 noStroke();
-rect(300,200,50,50)
+rect(xpos,ypos,50,50)
 
+xpos = xpos + velocityX;
 
+if
 
 
 
