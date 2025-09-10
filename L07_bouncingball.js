@@ -16,12 +16,13 @@ function setup() {
 }
 
 function draw() {
-    circle(ballX,ballY,ballSize)
     noStroke();
+    circle(ballX,ballY,ballSize)
     ballX = ballX + ballSpeedX
     ballY = ballY + ballSpeedY
     if (ballX > width-ballSize/2) {
         ballSpeedX = ballSpeedX *-1
+        fill(random(0,255), random(0,255), random(0,255));
     }
     if (ballX < 0+ballSize/2) {
         ballspeedX = ballSpeedX
