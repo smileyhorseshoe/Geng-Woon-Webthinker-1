@@ -10,13 +10,13 @@ let ballSpeedY = 2;
 
 
 
-
 function setup() {
     createCanvas(600,400);
     background("skyblue");
 }
 
 function draw() {
+    circle()
     noStroke();
     ballX = ballX + ballSpeedX
     ballY = ballY + ballSpeedY
