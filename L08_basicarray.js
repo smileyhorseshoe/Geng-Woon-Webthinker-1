@@ -15,14 +15,7 @@ function setup() {
 
 function draw() {
 rect(300,200,50,50)
-    if (X > width-Size/2) {
-        ballSpeedX = ballSpeedX *-1
-        fill(random(0,255), random(0,255), random(0,255));
-    }
-    if (X < 0+Size/2) {
-        ballspeedX = ballSpeedX *+1
-    fill(random(0,255), random(0,255), random(0,255));
-    }
+
 
 
 
