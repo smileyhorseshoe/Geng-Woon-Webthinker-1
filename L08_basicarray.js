@@ -1,7 +1,7 @@
 let velocityX = 2;
 let xpos = 200;
 let ypos =200;
-let favouriteFodos =  []
+let favouriteFodos =  ["Gyudon", "Udon", "Sushi", "Pasta"]
 
 
 
