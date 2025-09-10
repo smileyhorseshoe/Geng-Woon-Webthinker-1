@@ -9,7 +9,7 @@ function setup() {
     createCanvas(400,400);
     background(200);
     textSize(32);
-    text)
+    text("p5")
 }
 
 function draw() {
