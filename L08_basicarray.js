@@ -16,7 +16,10 @@ function setup() {
     // text("My favourite activity is swimming", 50, 150)
     console.log("I love" + favFoods.length + ".xoa")
     for ( let index=0; index < favFoods.length; index++) {
-    let yValue = 
+    let yValue = 80;
+    for (let index =0; index < favFoods.length; index++) {
+        console.log
+    }
     }
 }
 
