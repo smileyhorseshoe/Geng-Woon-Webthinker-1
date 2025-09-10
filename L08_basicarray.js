@@ -9,7 +9,8 @@ function setup() {
     createCanvas(600,600);
     background("black");
     fill("cyan")
-    textSize(32);
+    // textSize(32);
+    textSize(18);
     let favFoods =  ["Gyudon", "Udon", "Sushi", "Pasta"];
     // text("My name is Geng Woon", 50,50)
     // text("I am 10 this year", 50, 100)
