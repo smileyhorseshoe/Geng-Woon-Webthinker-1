@@ -11,17 +11,17 @@ function setup() {
 }
 
 function draw() {
-background(220); 
-noStroke();
-rect(xpos,ypos,50,50)
+// background(220); 
+// noStroke();
+// rect(xpos,ypos,50,50)
 
-xpos = xpos + velocityX;
+// xpos = xpos + velocityX;
 
-if ( xpos < 0 || xpos > width) {
-    fill( random(255), random(255), random(255) );
+// if ( xpos < 0 || xpos > width) {
+//     fill( random(255), random(255), random(255) );
 
-    velocityX = velocityX 
-}
+//     velocityX = velocityX 
+// }
 
 
 
