@@ -20,5 +20,8 @@ function draw() {
     noStroke();
     ballX = ballX + ballSpeedX
     ballY = ballY + ballSpeedY
-    
+    if (ballX > width-ballSize/2) {
+        
+    }
+
 }
