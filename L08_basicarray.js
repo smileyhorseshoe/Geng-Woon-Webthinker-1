@@ -12,7 +12,7 @@ function setup() {
     // textSize(32);
     textSize(18);
     textAlign(LEFT,TOP)
-    textAlign
+    textAlign(RIGHT,BOTTOM)
     let favFoods =  ["Gyudon", "Udon", "Sushi", "Pasta"];
     // text("My name is Geng Woon", 50,50)
     // text("I am 10 this year", 50, 100)
