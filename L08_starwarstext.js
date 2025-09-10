@@ -14,11 +14,11 @@ function setup() {
 
 
 function draw() {
+background("black")
 
 
 
 
-    
     if ( keyIsDown(32)) {
         soundsFX.play();
     }
