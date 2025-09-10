@@ -11,6 +11,7 @@ function setup() {
 }
 
 function draw() {
+background(220); 
 noStroke();
 rect(xpos,ypos,50,50)
 
