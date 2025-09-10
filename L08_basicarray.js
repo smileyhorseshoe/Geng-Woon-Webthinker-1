@@ -10,10 +10,13 @@ function setup() {
     background("black");
     fill("cyan")
     textSize(32);
-    let favouriteFodos =  ["Gyudon", "Udon", "Sushi", "Pasta"];
+    let favFoods =  ["Gyudon", "Udon", "Sushi", "Pasta"];
     // text("My name is Geng Woon", 50,50)
     // text("I am 10 this year", 50, 100)
     // text("My favourite activity is swimming", 50, 150)
+    for ( let index=0; index < favFoods.length; index++) {
+        
+    }
 }
 
 function draw() {
