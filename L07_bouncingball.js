@@ -3,7 +3,8 @@ let xpos = 200;
 let ballX = 200;
 let ballY = 60;
 let ballSize = 50;
-let b
+let ballSpeedX = 2;
+let ballSpeedY = 2;
 
 
 
