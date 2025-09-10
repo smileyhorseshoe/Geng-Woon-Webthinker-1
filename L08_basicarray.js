@@ -19,7 +19,7 @@ rect(300,200,50,50)
         ballSpeedX = ballSpeedX *-1
         fill(random(0,255), random(0,255), random(0,255));
     }
-    if (ballX < 0+ballSize/2) {
+    if (ballX < 0+Size/2) {
         ballspeedX = ballSpeedX
     fill(random(0,255), random(0,255), random(0,255));
     }
