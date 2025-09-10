@@ -6,12 +6,19 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(1200,600);
+    createCanvas(600,400);
     background("black")
     fill("cyan")
+    ypos=  height
 }
 
+
 function draw() {
+
+
+
+
+    
     if ( keyIsDown(32)) {
         soundsFX.play();
     }
