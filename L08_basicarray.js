@@ -20,7 +20,7 @@ xpos = xpos + velocityX;
 if ( xpos < 0 || xpos > width) {
     fill( random(255), random(255), random(255) );
 
-    velocityX++
+    velocityX = velocityX 
 }
 
 
