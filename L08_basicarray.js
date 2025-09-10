@@ -7,7 +7,7 @@ let ypos =200;
 
 function setup() {
     createCanvas(400,400);
-    background(200);
+    background("black");
     fill("cyan")
     textSize(32);
     text("p5.js libary", 80 , 200)
