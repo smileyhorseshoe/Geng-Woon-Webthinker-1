@@ -1,9 +1,9 @@
 let SpeedX = 2;
 let xpos = 200;
 
-let rectX = 200;
-let ballY = 60;
-let ballSize = 50;
+let X = 200;
+let Y = 60;
+let Size = 50;
 let SpeedY = 2;
 
 
