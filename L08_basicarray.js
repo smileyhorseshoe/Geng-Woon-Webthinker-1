@@ -1,10 +1,7 @@
-let SpeedX = 2;
-let xpos = 200;
 
-let X = 200;
-let Y = 60;
-let Size = 50;
-let SpeedY = 2;
+let xpos = 200;
+let ypos =200;
+
 
 
 
