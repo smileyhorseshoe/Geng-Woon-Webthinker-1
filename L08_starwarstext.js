@@ -12,9 +12,9 @@ function setup() {
 
 function draw() {
     if ( keyIsDown(32)) {
-        soundsFX.play()
+        soundsFX.play();
     }
     else if ( keyIsDown(DOWN_ARROW)) {
-        soundsFX.stop()
+        soundsFX.stop();
     }
  }
