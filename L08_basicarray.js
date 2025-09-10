@@ -14,6 +14,7 @@ function setup() {
 }
 
 function draw() {
+noStroke();
 rect(300,200,50,50)
 
 
