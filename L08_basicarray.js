@@ -18,7 +18,7 @@ function setup() {
     // for ( let index=0; index < favFoods.length; index++) {
     let yValue = 80;
     for (let index =0; index < favFoods.length; index++) {
-        text( "I love " + favFood[index] + ".", 80, yValue)
+        text( "I love " + favFoods[index] + ".", 80, yValue)
         yvalue = yvalue + 55
     }
     }
