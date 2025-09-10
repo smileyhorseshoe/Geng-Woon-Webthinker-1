@@ -6,13 +6,13 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(600,400);
+    createCanvas(1200,600);
     background("black")
     fill("cyan")
 }
 
 function draw() {
-    if ( keyIsDown(32)) 
+    if ( keyIsDown(32)) {
         soundsFX.play();
     }
     else if ( keyIsDown(DOWN_ARROW)) {
