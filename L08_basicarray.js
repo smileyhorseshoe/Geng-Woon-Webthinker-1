@@ -19,6 +19,7 @@ function setup() {
     let yValue = 80;
     for (let index =0; index < favFoods.length; index++) {
         console.log( "I love " + favFood[index] + ".")
+        yvalue = yvalue + 55
     }
     }
 }
