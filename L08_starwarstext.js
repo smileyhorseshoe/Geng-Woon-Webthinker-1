@@ -1,5 +1,5 @@
 let soundsFX;
-
+let ypos;
 function preload() {
     soundsFX = loadSound("assets/star_wars_theme_8_bit.mp3")
     soundsFX.loop();
