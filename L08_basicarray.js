@@ -12,7 +12,7 @@ function setup() {
     textSize(32);
     text("My name is Geng Woon", 50,50)
     text("I am 10 this year", 50, 100)
-    text("")
+    text("My favourite activity is swimming", 50, 150)
 }
 
 function draw() {
