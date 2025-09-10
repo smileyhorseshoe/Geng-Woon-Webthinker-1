@@ -17,7 +17,7 @@ rect(xpos,ypos,50,50)
 xpos = xpos + velocityX;
 
 if ( xpos < 0 || xpos > width) {
-    fill( random(255))
+    fill( random(255), random(255), random(255) );
 }
 
 
