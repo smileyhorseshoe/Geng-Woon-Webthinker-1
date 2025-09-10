@@ -24,5 +24,5 @@ if ( xpos < 0 || xpos > width) {
 
 
 
-SpeedX = constrain(ballSpeedX, -5, 5)
+
 }
