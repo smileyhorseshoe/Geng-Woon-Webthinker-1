@@ -33,7 +33,8 @@ let story = [
     "bla bla bla end of story"
 ]
 for (let index =0; index < story.length; index++) {
-text(story[index],0,0)
+text(story[index],0,textY)
+
 
 }
 ypos = ypos - 1
