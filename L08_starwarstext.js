@@ -21,7 +21,8 @@ textSize(28)
 // text("the beginning of the star wars story...", 0 ,0)
 // text("Bla bla bla, end of story", 0 ,35)
 let story = [
-    "t"
+    "the beginning of the star wars story...",
+    "at episode 4 in the year 1995"
 ]
 ypos = ypos - 1
 
