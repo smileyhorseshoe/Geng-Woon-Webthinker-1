@@ -19,7 +19,8 @@ translate(width/2, ypos);
 textAlign(CENTER,CENTER)
 textSize(28)
 // text("the beginning of the star wars story...", 0 ,0)
-text("Bla bla bla, end of story", 0 ,35)
+// text("Bla bla bla, end of story", 0 ,35)
+let story []
 ypos = ypos - 1
 
 if ( ypos < 0) {
