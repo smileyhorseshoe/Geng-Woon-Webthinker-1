@@ -12,5 +12,5 @@ function setup() {
 
 function draw() {
         translate(xpos,height/2)
-    text("bounce!", width/2, height/2)
+    text("bounce!", 0,0)
 }
