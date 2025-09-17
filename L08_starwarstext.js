@@ -15,6 +15,7 @@ function setup() {
 
 function draw() {
 background("black")
+translate(width/2,)
 textAlign(CENTER,CENTER)
 textSize(48)
 text("the beginning of the star wars story...", 0 ,0)
