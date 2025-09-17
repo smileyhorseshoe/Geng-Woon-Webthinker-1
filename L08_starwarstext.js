@@ -23,7 +23,7 @@ text("Bla bla bla, end of story", 0 ,50)
 ypos = ypos - 1
 
 if ( ypos < 0) {
-    
+    ypos = height
 }
 
     if ( keyIsDown(32)) {
