@@ -18,7 +18,7 @@ background("black")
 textAlign(CENTER,CENTER)
 textSize(48)
 text("the beginning of the star wars story...", 0 ,0)
-text("Bla.", 0 ,50)
+text("Bla bla bla, end of story", 0 ,50)
 
 
 
