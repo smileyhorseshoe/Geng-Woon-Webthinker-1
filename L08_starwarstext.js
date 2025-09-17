@@ -22,6 +22,9 @@ text("the beginning of the star wars story...", 0 ,0)
 text("Bla bla bla, end of story", 0 ,50)
 ypos = ypos - 1
 
+if ( ypos < 0) {
+    
+}
 
     if ( keyIsDown(32)) {
         soundsFX.play();
