@@ -28,7 +28,7 @@ background(200)
 let hourNumber = hour();
 let minuteNumber = minute();
 let secondNumber = second();
-textAlign(CENTRE,CENTRE)
+textAlign(CENTER,CENTER)
 textSize(48)
 text(hourNumber, width/2,height/2)
 }
