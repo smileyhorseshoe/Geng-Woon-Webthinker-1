@@ -45,10 +45,10 @@ let story = [
 ]
 for (let index =0; index < story.length; index++) {
 text(story[index],0,textY)
-textY = textY + 28
+textY = textY - 28
 
 }
-ypos = ypos + 1.5
+ypos = ypos - 1.5
 
 if ( ypos < 0) {
     ypos = height
