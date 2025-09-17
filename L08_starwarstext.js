@@ -30,10 +30,14 @@ let story = [
     "more and more gets killed",
     "blue think its orange",
     "but orange is DEAD",
-
+    "blue is voted out",
+    "still not an imposter",
     "the imposter sabotages O2",
     "they failed to fix it",
     "all of them died",
+    "the imposter has a secret oxygen tank",
+    "imposter accidentally pressed eject",
+    "he glided through space",
     "bla bla bla end of story"
 ]
 for (let index =0; index < story.length; index++) {
