@@ -13,7 +13,7 @@ function setup() {
 function draw() {
     background("black")
         translate(xpos,height/2)
-    text("bounce!", 0,0)
+    text("Bounce!", 0,0)
     xpos = xpos + velocityX
     if(xpos > width) {
         velocityX *= -1
