@@ -50,7 +50,7 @@ textY = textY - 28
 }
 ypos = ypos + 1.5
 
-if ( ypos < 0) {
+if ( ypos > 1050) {
     ypos = height
 }
 
