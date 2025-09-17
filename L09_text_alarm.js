@@ -4,7 +4,7 @@ let ypos = height/2
 function setup() {
     createCanvas(600,400);
     background(0);
-    fill(cyan)
+    fill("cyan")
 }
 
 function draw() {
