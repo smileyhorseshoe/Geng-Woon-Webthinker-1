@@ -18,11 +18,11 @@ background("black")
 translate(width/2, ypos);
 textAlign(CENTER,CENTER)
 textSize(28)
-// text("the beginning of the star wars story...", 0 ,0)
-// text("Bla bla bla, end of story", 0 ,35)
+
 let story = [
     "the beginning of the star wars story...",
-    "at episode 4 in the year 1995"
+    "at episode 4 in the year 1995",
+    "the attack"
 ]
 ypos = ypos - 1
 
