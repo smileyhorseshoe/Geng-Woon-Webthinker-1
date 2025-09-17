@@ -37,7 +37,7 @@ let story = [
     "they failed to fix it",
     "all of them died",
     "the imposter says",
-    "ezzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+    "ezzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
     "the imposter has a secret oxygen tank",
     "imposter accidentally pressed eject",
     "he glided through space",
