@@ -30,6 +30,6 @@ let minuteNumber = minute();
 let secondNumber = second();
 textAlign(CENTER,CENTER)
 textSize(48)
+let timeNow = 
 text(secondNumber, width/2,height/2)
-
 }
