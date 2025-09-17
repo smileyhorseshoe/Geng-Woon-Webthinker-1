@@ -26,6 +26,7 @@ background(200);
 function draw() {
 background(200)
 let hourNumber = hour();
+hourNumber = nf(hourNumber)
 let minuteNumber = minute();
 let secondNumber = second();
 textAlign(CENTER,CENTER)
