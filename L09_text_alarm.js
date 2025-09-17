@@ -9,6 +9,7 @@ function setup() {
 
 function draw() {
     translate(width/2,height/2)
+    textAlign(CENTER,CENTER)
     textSize(28)
     text("bounce!", 300,200)
 }
