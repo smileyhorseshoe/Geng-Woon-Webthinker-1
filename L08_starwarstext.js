@@ -48,7 +48,7 @@ text(story[index],0,textY)
 textY = textY - 28
 
 }
-ypos = ypos + 1.5
+ypos = ypos + 1
 
 if ( ypos > 1050) {
     ypos = 0
