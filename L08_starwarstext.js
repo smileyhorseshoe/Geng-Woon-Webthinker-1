@@ -46,7 +46,7 @@ text(story[index],0,textY)
 textY = textY + 28
 
 }
-ypos = ypos - 1
+ypos = ypos - 1.5
 
 if ( ypos < 0) {
     ypos = height
