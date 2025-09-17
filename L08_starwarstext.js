@@ -17,10 +17,10 @@ function draw() {
 background("black")
 translate(width/2, ypos);
 textAlign(CENTER,CENTER)
-textSize(48)
+textSize(28)
 text("the beginning of the star wars story...", 0 ,0)
 text("Bla bla bla, end of story", 0 ,50)
-ypos - 0.6
+ypos = ypos - 0.6
 
 
     if ( keyIsDown(32)) {
