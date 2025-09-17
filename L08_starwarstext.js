@@ -22,7 +22,11 @@ textSize(28)
 let story = [
     "there is a spaceship in space",
     "an imposter is AMONG US",
-    ""
+    "first person dead",
+    "they think its red",
+    "red gets ejected",
+    "hes not an imposter",
+    
 ]
 ypos = ypos - 1
 
