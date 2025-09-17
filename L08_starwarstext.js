@@ -24,7 +24,8 @@ let story = [
     "at episode 4 in the year 1995",
     "Rey and Kylo Ren vs. Praetorian Guard fight with lightsabers",
     "who will win",
-    "hmmmmm"
+    "hmmmmm",
+    
 ]
 ypos = ypos - 1
 
