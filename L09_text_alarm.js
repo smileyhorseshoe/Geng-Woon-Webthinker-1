@@ -1,5 +1,4 @@
-let xpos = width /2
-let ypos = height/2
+let xpos;
 let velocityX;
 function setup() {
     createCanvas(600,400);
@@ -7,7 +6,7 @@ function setup() {
     fill("cyan")
     textSize(28)
     textAlign(CENTER,CENTER)
-    
+    xpos = width/2
 }
 
 function draw() {
