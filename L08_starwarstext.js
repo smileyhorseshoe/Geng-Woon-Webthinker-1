@@ -27,6 +27,10 @@ let story = [
     "they think its red",
     "red gets ejected",
     "hes not an imposter",
+    "more and more gets killed",
+    "blue think its orange",
+    "but orange is DEAD",
+
     "the imposter sabotages O2",
     "they failed to fix it",
     "all of them died",
