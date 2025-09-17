@@ -1,5 +1,6 @@
 let soundsFX;
 let ypos;
+let space = 50
 function preload() {
     soundsFX = loadSound("assets/star_wars_theme_8_bit.mp3")
     soundsFX.loop();
@@ -32,7 +33,7 @@ let story = [
     "bla bla bla end of story"
 ]
 for (let index =0; index < story.length; index++) {
-    
+
 }
 ypos = ypos - 1
 
