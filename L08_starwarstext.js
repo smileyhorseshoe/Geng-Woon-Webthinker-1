@@ -22,7 +22,8 @@ textSize(28)
 let story = [
     "the beginning of the star wars story...",
     "at episode 4 in the year 1995",
-    "Rey and Kylo Ren vs. Praetorian Guard"
+    "Rey and Kylo Ren vs. Praetorian Guard fight with lightsabers",
+    "who will win"
 ]
 ypos = ypos - 1
 
