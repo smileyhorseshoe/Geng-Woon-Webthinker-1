@@ -29,4 +29,5 @@ let minuteNumber = minute();
 let secondNumber = second();
 textAlign(CENTRE,CENTRE)
 textSize(48)
+text()
 }
