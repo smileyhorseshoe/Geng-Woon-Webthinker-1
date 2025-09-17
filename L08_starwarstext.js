@@ -7,7 +7,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(600,1050);
+    createCanvas(1500,1050);
     background("black")
     fill("cyan")
     ypos = height;
