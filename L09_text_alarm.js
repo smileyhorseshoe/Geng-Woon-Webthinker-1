@@ -8,6 +8,6 @@ function setup() {
 }
 
 function draw() {
-    
+    translate(width/2,)
     textSize(28)
 }
