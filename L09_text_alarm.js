@@ -13,4 +13,5 @@ function setup() {
 function draw() {
         translate(xpos,height/2)
     text("bounce!", 0,0)
+    xpos = xpos + velocityX
 }
