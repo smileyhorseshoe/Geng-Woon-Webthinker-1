@@ -17,6 +17,7 @@ function setup() {
 function draw() {
 background("black")
 translate(width/2, ypos);
+scale(1,2)
 textAlign(CENTER,CENTER)
 textSize(28)
 let textY = 0;
