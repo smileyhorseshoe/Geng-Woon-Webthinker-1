@@ -26,13 +26,13 @@ background(200);
 function draw() {
 background(200)
 let hourNumber = hour();
-hourNumber = nf(hourNumber,2)
+hourNumber = nf(hourNumber,2);
 let minuteNumber = minute();
 minuteNumber = nf(minuteNumber, 2)
 let secondNumber = second();
 secondNumber = nf(secondNumber,2)
 textAlign(CENTER,CENTER)
 textSize(48)
-let timeNow = [hourNumber,minuteNumber,secondNumber]
+let timeNow = hourNumber + ":" + minuteNumber + ":" secondNumber;
 text(timeNow, width/2,height/2)
 }
