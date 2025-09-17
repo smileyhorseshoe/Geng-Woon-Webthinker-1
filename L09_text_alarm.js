@@ -7,7 +7,7 @@ function setup() {
     textSize(28)
     textAlign(CENTER,CENTER)
     xpos = width/2
-    velocityX = 10;
+    velocityX = 1000000;
 }
 
 function draw() {
