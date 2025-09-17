@@ -30,5 +30,5 @@ let minuteNumber = minute();
 let secondNumber = second();
 textAlign(CENTRE,CENTRE)
 textSize(48)
-text(secondNumber, width/2,height/2)
+text(hourNumber, width/2,height/2)
 }
