@@ -25,5 +25,6 @@ background(220);
 }
 function draw() {
 let hourNumber = hour();
-let minuteNumber = minute()
+let minuteNumber = minute();
+let secondNumber = second();
 }
