@@ -8,6 +8,7 @@ function setup() {
 }
 
 function draw() {
-    translate(width/2,)
+    translate(width/2,height/2)
     textSize(28)
+    text("bounce!")
 }
