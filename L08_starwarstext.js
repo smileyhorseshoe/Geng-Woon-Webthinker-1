@@ -1,5 +1,5 @@
 let soundsFX;
-let ypos;
+let ypos = 0;
 let space = 50
 function preload() {
     soundsFX = loadSound("assets/star_wars_theme_8_bit.mp3")
@@ -16,7 +16,7 @@ function setup() {
 
 function draw() {
 background("black")
-translate(width/2, 0);
+translate(width/2, ypos);
 scale(1,2)
 textAlign(CENTER,CENTER)
 textSize(28)
