@@ -36,6 +36,8 @@ let story = [
     "the imposter sabotages O2",
     "they failed to fix it",
     "all of them died",
+    "the imposter says",
+    "ezzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
     "the imposter has a secret oxygen tank",
     "imposter accidentally pressed eject",
     "he glided through space",
