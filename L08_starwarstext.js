@@ -26,7 +26,10 @@ let story = [
     "they think its red",
     "red gets ejected",
     "hes not an imposter",
-    
+    "the imposter sabotages O2",
+    "they failed to fix it",
+    "all of them died",
+    "bla bla bla end of story"
 ]
 ypos = ypos - 1
 
