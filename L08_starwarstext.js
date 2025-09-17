@@ -19,7 +19,7 @@ background("black")
 translate(width/2, ypos);
 textAlign(CENTER,CENTER)
 textSize(28)
-
+let textY = 0;
 let story = [
     "there is a spaceship in space",
     "an imposter is AMONG US",
