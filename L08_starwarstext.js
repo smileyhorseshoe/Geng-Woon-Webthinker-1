@@ -31,7 +31,8 @@ let story = [
     "all of them died",
     "bla bla bla end of story"
 ]
-for (let index =0; index < favFoods.length; index++) {
+for (let index =0; index < story.length; index++) {
+    
 }
 ypos = ypos - 1
 
