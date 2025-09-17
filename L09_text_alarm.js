@@ -31,5 +31,5 @@ let secondNumber = second();
 textAlign(CENTER,CENTER)
 textSize(48)
 let timeNow = [hourNumber,minuteNumber,secondNumber]
-text(secondNumber, width/2,height/2)
+text(timeNow, width/2,height/2)
 }
