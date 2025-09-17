@@ -24,6 +24,6 @@ createCanvas(600,400)
 background(220);
 }
 function draw() {
-let hour = hour();
-let minuteNumber
+let hourNumber = hour();
+let minuteNumber = minute()
 }
