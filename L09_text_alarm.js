@@ -1,4 +1,5 @@
-let xpos 
+let xpos = width /2
+let ypos = 
 
 function setup() {
     createCanvas(600,400);
