@@ -20,8 +20,8 @@
 //     }
 // }
 function setup() {
-
+createCanvass
 }
 function draw() {
-    
+
 }
