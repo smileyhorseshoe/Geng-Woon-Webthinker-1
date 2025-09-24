@@ -51,7 +51,10 @@ text(countdown, width/2, height/2 +100)
 text("Click me to start the timer.",width/2,height/2+150)
 
 if (keyIsDown(32)) {
-    soundsFX.play
+    soundsFX.play();
+}
+else if (keyIsDown) {
+    
 }
 
 }
