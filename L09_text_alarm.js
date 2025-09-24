@@ -30,7 +30,10 @@ function preload() {
 function setup() {
 createCanvas(600,400)
 background(bgColor);
-objectId = setInterval( doSomething)
+objectId = setInterval( doSomething, 1000)
+}
+function doSomething() {
+    
 }
 function draw() {
 background(bgColor)
