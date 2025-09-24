@@ -30,7 +30,7 @@ createCanvas(600,400)
 background(bgColor);
 }
 function draw() {
-background(200)
+background(bgColor)
 let hourNumber = hour();
 hourNumber = nf(hourNumber,2);
 let minuteNumber = minute();
