@@ -20,6 +20,7 @@
 //     }
 // }
 let soundsFX;
+let bgColor;
 function preload() {
     soundsFX = loadSound("assets/bossaNova.mp3");
     
