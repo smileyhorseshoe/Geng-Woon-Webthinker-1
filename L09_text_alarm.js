@@ -67,6 +67,7 @@ function keyPressed() {
     bgColor = color( random(255), random(255), random(255) );
 }
     else if (keycode === 49) {
-    counter--;
+    countdown--;
+    countdown = constrain
     }
 }
