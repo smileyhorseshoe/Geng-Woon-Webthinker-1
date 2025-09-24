@@ -19,6 +19,9 @@
 //         velocityX *= -1
 //     }
 // }
+function preload() {
+
+}
 function setup() {
 createCanvas(600,400)
 background(200);
@@ -42,8 +45,8 @@ text(timeNow, width/2,height/2)
 let countdown = 5
 countdown = nf(countdown,1,0)
 
-text("Countdown Timer" + width/2, height/2+50)
+text("Countdown Timer",width/2, height/2+50)
 text(countdown, width/2, height/2 +100)
-text("Click me to start the timer." + width/2,height/2+150)
+text("Click me to start the timer.",width/2,height/2+150)
 
 }
