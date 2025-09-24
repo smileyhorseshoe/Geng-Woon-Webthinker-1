@@ -43,5 +43,5 @@ let countdown = 5
 countdown = nf(countdown,1,1)
 text("Click me to start the timer." + width/2,height/2+50)
 for (let countdown = 5; countdown > 1; countdown++)
-text(countdown)
+    text(countdown)
 }
