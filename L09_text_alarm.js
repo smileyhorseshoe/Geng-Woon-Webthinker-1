@@ -71,4 +71,3 @@ function keyPressed() {
     counter = constrain(counter, 0,5)
     }
 }
-countdown
