@@ -27,7 +27,7 @@ function preload() {
 }
 function setup() {
 createCanvas(600,400)
-background(200);
+background(bgColor);
 }
 function draw() {
 background(200)
