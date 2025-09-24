@@ -20,7 +20,7 @@
 //     }
 // }
 function preload() {
-    soundsFX = loadSound("assets/bossaNova.mp3")
+    soundsFX = loadSound("assets/bossaNova.mp3");
     
 }
 function setup() {
