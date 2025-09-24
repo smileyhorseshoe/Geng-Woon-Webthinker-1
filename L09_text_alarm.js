@@ -55,7 +55,7 @@ if (keyIsDown(32)) {
     soundsFX.play();
 }
 else if (keyIsDown) {
-    soundsFX.stop()
+    soundsFX.stop();
 }
 
 }
