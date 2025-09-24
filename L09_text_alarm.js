@@ -40,7 +40,7 @@ text(timeNow, width/2,height/2)
 // pi = nf(pi, 1, 4); // 4dp
 // text("pi is " + pi, width/2, height/2+50)
 let countdown = 5
-countdown = nf(countdown,1,1)
+countdown = nf(countdown,1,0)
 text("Countdown Timer" + width/2, height/2+50)
 text(countdown, width/2, height/2 +100)
 text("Click me to start the timer." + width/2,height/2+150)
