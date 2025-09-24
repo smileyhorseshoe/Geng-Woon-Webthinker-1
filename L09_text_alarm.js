@@ -36,7 +36,9 @@ textSize(48)
 let timeNow = hourNumber + ":" + minuteNumber + ":" + secondNumber;
 text(timeNow, width/2,height/2)
 
-let pi = 3.14159265359
-pi = nf(pi, 2, 4); // 4dp
-text("pi is " + pi, width/2, height/2+50)
+// let pi = 3.14159265359
+// pi = nf(pi, 2, 4); // 4dp
+// text("pi is " + pi, width/2, height/2+50)
+let countdown = 5
+countdown = nf()
 }
