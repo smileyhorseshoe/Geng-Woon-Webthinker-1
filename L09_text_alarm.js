@@ -21,7 +21,7 @@
 // }
 let soundsFX;
 let bgColor = 220;
-let countdown = 5
+let counter = 5
 function preload() {
     soundsFX = loadSound("assets/bossaNova.mp3");
     
@@ -68,6 +68,6 @@ function keyPressed() {
 }
     else if (keycode === 49) {
     countdown--;
-    countdown = constrain(countdown, 0,5)
+    counter = constrain(countdown, 0,5)
     }
 }
