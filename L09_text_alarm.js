@@ -21,6 +21,7 @@
 // }
 let soundsFX;
 let bgColor = 220;
+let countdown = 5
 function preload() {
     soundsFX = loadSound("assets/bossaNova.mp3");
     
@@ -45,7 +46,7 @@ text(timeNow, width/2,height/2)
 // let pi = 3.14159265359
 // pi = nf(pi, 1, 4); // 4dp
 // text("pi is " + pi, width/2, height/2+50)
-let countdown = 5
+
 countdown = nf(countdown,1,0)
 
 text("Countdown Timer",width/2, height/2+50)
