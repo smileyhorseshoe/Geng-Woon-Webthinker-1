@@ -20,7 +20,8 @@
 //     }
 // }
 function preload() {
-
+    soundsFX = loadSound("assets/bossaNova.mp3")
+    
 }
 function setup() {
 createCanvas(600,400)
