@@ -40,5 +40,6 @@ text(timeNow, width/2,height/2)
 // pi = nf(pi, 1, 4); // 4dp
 // text("pi is " + pi, width/2, height/2+50)
 let countdown = 5
-countdown = nf()
+countdown = nf(countdown,1,1)
+text()
 }
