@@ -28,21 +28,21 @@ function preload() {
     
 }
 function setup() {
-createCanvas(600,400)
+createCanvas(600,400);
 background(bgColor);
-objectId = setInterval( doSomething, 1000)
+objectId = setInterval( doSomething, 1000);
 }
 function doSomething() {
 
 }
 function draw() {
-background(bgColor)
+background(bgColor);
 let hourNumber = hour();
 hourNumber = nf(hourNumber,2);
 let minuteNumber = minute();
-minuteNumber = nf(minuteNumber, 2)
+minuteNumber = nf(minuteNumber, 2);
 let secondNumber = second();
-secondNumber = nf(secondNumber,2)
+secondNumber = nf(secondNumber,2);
 textAlign(CENTER,CENTER)
 textSize(48)
 let timeNow = hourNumber + ":" + minuteNumber + ":" + secondNumber;
