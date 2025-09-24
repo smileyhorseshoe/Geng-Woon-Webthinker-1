@@ -43,10 +43,10 @@ let minuteNumber = minute();
 minuteNumber = nf(minuteNumber, 2);
 let secondNumber = second();
 secondNumber = nf(secondNumber,2);
-textAlign(CENTER,CENTER)
-textSize(48)
+textAlign(CENTER,CENTER);
+textSize(48);
 let timeNow = hourNumber + ":" + minuteNumber + ":" + secondNumber;
-text(timeNow, width/2,height/2)
+text(timeNow, width/2,height/2);
 
 // let pi = 3.14159265359
 // pi = nf(pi, 1, 4); // 4dp
