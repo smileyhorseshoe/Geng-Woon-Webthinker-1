@@ -47,7 +47,7 @@ text(timeNow, width/2,height/2)
 // pi = nf(pi, 1, 4); // 4dp
 // text("pi is " + pi, width/2, height/2+50)
 
-countdown = nf(countdown,1,0)
+counter = nf(counter,1,0)
 
 text("Countdown Timer",width/2, height/2+50);
 text(counter, width/2, height/2 +100);
