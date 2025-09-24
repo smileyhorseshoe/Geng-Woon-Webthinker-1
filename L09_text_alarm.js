@@ -33,7 +33,7 @@ background(bgColor);
 objectId = setInterval( doSomething, 1000)
 }
 function doSomething() {
-    
+
 }
 function draw() {
 background(bgColor)
@@ -75,4 +75,7 @@ function keyPressed() {
     counter--;
     counter = constrain(counter, 0,5)
     }
+function mousePressed() {
+    cleari
+}
 }
