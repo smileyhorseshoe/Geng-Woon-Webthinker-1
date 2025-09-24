@@ -36,5 +36,5 @@ textSize(48)
 let timeNow = hourNumber + ":" + minuteNumber + ":" + secondNumber;
 text(timeNow, width/2,height/2)
 
-let pi
+let pi = 3.14159265359
 }
