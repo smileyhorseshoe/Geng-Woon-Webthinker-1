@@ -62,3 +62,6 @@ else if (keyIsDown(UP_ARROW)) {
     bgColor = color( random(255), random(255), random(255) );
 }
 }
+function keyPressed() {
+    
+}
