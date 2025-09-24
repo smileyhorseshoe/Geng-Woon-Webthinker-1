@@ -75,5 +75,7 @@ function keyPressed() {
     counter--;
     counter = constrain(counter, 0,5)
     }
-// place function here :)
+function mousePressed() {
+    clearInterval
+}
 }
