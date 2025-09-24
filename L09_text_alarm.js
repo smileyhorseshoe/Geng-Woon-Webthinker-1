@@ -68,6 +68,6 @@ function keyPressed() {
 }
     else if (keycode === 49) {
     countdown--;
-    countdown = constrain
+    countdown = constrain(countdown, 0,5)
     }
 }
