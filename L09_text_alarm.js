@@ -22,7 +22,7 @@
 let soundsFX;
 let bgColor = 220;
 let counter = 5
-let objectID;
+let objectId; // for creating intervals
 function preload() {
     soundsFX = loadSound("assets/bossaNova.mp3");
     
