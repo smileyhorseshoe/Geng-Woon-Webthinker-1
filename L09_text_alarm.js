@@ -19,6 +19,7 @@
 //         velocityX *= -1
 //     }
 // }
+let soundsFX;
 function preload() {
     soundsFX = loadSound("assets/bossaNova.mp3");
     
