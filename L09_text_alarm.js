@@ -58,5 +58,7 @@ if (keyIsDown(32)) {
 else if (keyIsDown(DOWN_ARROW)) {
     soundsFX.stop();
 }
-
+else if (keyIsDown(UP_ARROW)) {
+    bgColor = color
+}
 }
