@@ -19,7 +19,7 @@ function updateLabel () {
 username = userInput.value();
 }
 function updateAge() {
-age = AgeInput.value();
+age = ageInput.value();
 }
 
 
