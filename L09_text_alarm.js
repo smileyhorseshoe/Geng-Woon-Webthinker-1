@@ -79,7 +79,8 @@ function keyPressed() {
 function mousePressed() {
     clearInterval(objectId)
     if (counter === 5) {
-        objectId
+        objectId(1000)
+        
     }
 }
 }
