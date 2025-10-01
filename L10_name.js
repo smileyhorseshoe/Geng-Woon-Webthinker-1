@@ -14,5 +14,5 @@ function draw() {
     fill("black")
     textSize(32)
     textAlign(CENTRE,CENTRE)
-    
+    text("Your Name", width/2,150)
 }
