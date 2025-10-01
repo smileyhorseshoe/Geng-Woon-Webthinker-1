@@ -6,7 +6,7 @@ let ageInput;
 function setup() {
     createCanvas(600,600);
     background("skyblue");
-colorPicker = createColorPicker("skyblue");
+    colorPicker = createColorPicker("skyblue");
 colorPicker.position(width/2+30,height/2+20);
 userInput = createInput();
 userInput.position(width/2, height/2+100);
