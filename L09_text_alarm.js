@@ -88,11 +88,11 @@ function doSomething() {
     counter--;
     counter = constrain(counter,0,5)
 
-if (counter === 0) {
-    clearInterval(objectId);
-    soundsFX.play()
-    secondId = setInterval( blinkBG,500)
-}
+    if (counter === 0) {
+        clearInterval(objectId);
+        soundsFX.play()
+        secondId = setInterval( blinkBG,500)
+    }
 }
 let blinkCounter = 0;
 function blinkBG() {
