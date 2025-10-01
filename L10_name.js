@@ -16,7 +16,7 @@ AgeInput.input(updateAge);
 function updateLabel () {
 username = userInput.value()
 function updateAge() {
-
+updateAge
 }
 }
 }
