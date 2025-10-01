@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(400,400);
+    createCanvas(600,600);
     background("skyblue");
 colorPicker = createColorPicker();
 colorPicker.position(width/2-25,height/2)
