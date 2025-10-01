@@ -80,7 +80,11 @@ function mousePressed() {
     clearInterval(objectId)
     if (counter === 5) {
         objectId(1000)
-        
+
     }
+}
+
+if (counter === 0) {
+    
 }
 }
