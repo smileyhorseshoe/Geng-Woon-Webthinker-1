@@ -93,6 +93,6 @@ if (counter === 0) {
 let blinkCounter = 0;
 function blinkBG() {
 blinkCounter++
-bgColor = color(random(255))
+bgColor = color(random(255), random(255), random(255))
 }
 }
