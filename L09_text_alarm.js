@@ -103,4 +103,4 @@ if (blinkCounter === 10) {
     bgColor = 220
 }
 }
-}
+
