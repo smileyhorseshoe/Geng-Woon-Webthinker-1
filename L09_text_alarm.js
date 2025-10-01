@@ -89,4 +89,6 @@ if (counter === 0) {
     soundsFX.play()
     secondId = setInterval( blinkBG,500)
 }
+
+
 }
