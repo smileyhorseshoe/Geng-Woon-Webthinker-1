@@ -79,7 +79,7 @@ function keyPressed() {
 }
 function mousePressed() {
 if (counter ===5) {
-
+objectId = setInterval(doSomething,1000)
     }
 }
 function doSomething() {
