@@ -90,18 +90,18 @@ function doSomething() {
 
     if (counter === 0) {
         clearInterval(objectId);
-        soundsFX.play()
-        secondId = setInterval( blinkBG,500)
+        soundsFX.play();
+        secondId = setInterval( blinkBG,500);
     }
 }
 
 let blinkCounter = 0;
 function blinkBG() {
-blinkCounter++
-bgColor = color(random(255), random(255), random(255))
+blinkCounter++;
+bgColor = color(random(255), random(255), random(255));
 if (blinkCounter === 10) {
-    clearInterval(secondId)
-    bgColor = 220
+    clearInterval(secondId);
+    bgColor = 220;
 }
 }
 
