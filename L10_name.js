@@ -22,5 +22,5 @@ function draw() {
     textSize(32)
     textAlign(CENTER,CENTER)
     text(username, width/2,150)
-    text("Enter text here:" , width/2-50, height /2)
+    text("Enter text here:" , width/2-100, height /2)
 }
