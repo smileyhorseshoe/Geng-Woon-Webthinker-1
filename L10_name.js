@@ -5,7 +5,7 @@ function setup() {
     createCanvas(600,600);
     background("skyblue");
 colorPicker = createColorPicker("skyblue");
-colorPicker.position(width/2+20,height/2)
+colorPicker.position(width/2+30,height/2)
 userInput = createInput();
 userInput.position(width/2, height/2+100)
 userInput.input(updateLabel); 
@@ -22,7 +22,7 @@ function draw() {
     textSize(32)
     textAlign(CENTER,CENTER)
     text(username, width/2,150)
-    text("Enter text here:" , width/2-135, height /2+115)
+    text("Enter text here:" , width/2-135, height /2+120)
     text("Choose Background:" , width/2-115, height /2)
     
 
