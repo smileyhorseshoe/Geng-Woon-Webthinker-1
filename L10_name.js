@@ -5,9 +5,9 @@ function setup() {
     createCanvas(600,600);
     background("skyblue");
 colorPicker = createColorPicker();
-colorPicker.position(width/2-25,height/2+50)
+colorPicker.position(width/2-25,height/2)
 userInput = createInput();
-userInput.position(width/2-25, height/2+100)
+userInput.position(width/2, height/2+100)
 }
 
 function draw() {
@@ -17,5 +17,5 @@ function draw() {
     fill("black")
     textSize(32)
     textAlign(CENTER,CENTER)
-    text(userInput, width/2,150)
+    text(username, width/2,150)
 }
