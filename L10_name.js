@@ -8,7 +8,7 @@ function setup() {
     background("skyblue");
     colorPicker = createColorPicker("skyblue");
 colorPicker.position(width/2+30,height/2+20);
-userInput = createInput();
+userInput = createInput(username,"text");
 userInput.position(width/2, height/2+100);
 userInput.input(updateLabel); 
 ageInput = createInput(age,"number");
