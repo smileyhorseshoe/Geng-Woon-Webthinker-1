@@ -87,6 +87,6 @@ function mousePressed() {
 if (counter === 0) {
     clearInterval(objectId);
     soundsFX.play()
-    secondId = setInterval
+    secondId = setInterval( blinkBG,500)
 }
 }
