@@ -92,6 +92,7 @@ if (counter === 0) {
 
 let blinkCounter = 0;
 function blinkBG() {
-
+blinkCounter++
+bgColor
 }
 }
