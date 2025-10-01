@@ -32,6 +32,8 @@ function draw() {
     textSize(32);
     textAlign(CENTER,CENTER);
     text(username, width/2,150);
+    textAlign(CENTER,CENTER);
+    text(username,width/2,150)
     text("Enter name here:" , width/2-135, height /2+110);
     text("Choose Background:" , width/2-115, height /2+30);
     text("Enter age here:", width/2-135, height/2+210)
