@@ -77,5 +77,6 @@ function keyPressed() {
     }
 function mousePressed() {
     clearInterval(objectId)
+    if (counter === 5)
 }
 }
