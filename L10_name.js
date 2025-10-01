@@ -1,4 +1,4 @@
-
+let username = "woonster"
 let colorPicker;
 function setup() {
     createCanvas(600,600);
