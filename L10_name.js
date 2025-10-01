@@ -11,4 +11,6 @@ function draw() {
     background(colorPicker.value());
     fill("white");
     rect(100,100,400,200,25)
+    fill("black")
+    textsiz
 }
