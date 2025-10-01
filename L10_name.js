@@ -5,7 +5,7 @@ function setup() {
     createCanvas(600,600);
     background("skyblue");
 colorPicker = createColorPicker("skyblue");
-colorPicker.position(width/2-25,height/2)
+colorPicker.position(width/2-75,height/2)
 userInput = createInput();
 userInput.position(width/2, height/2+100)
 userInput.input(updateLabel); 
