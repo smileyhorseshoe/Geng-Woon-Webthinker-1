@@ -96,7 +96,7 @@ blinkCounter++
 bgColor = color(random(255), random(255), random(255))
 if (blinkCounter === 10) {
     clearInterval(secondId)
-    
+    bgColor = 220
 }
 }
 }
