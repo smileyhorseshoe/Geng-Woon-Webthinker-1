@@ -90,5 +90,8 @@ if (counter === 0) {
     secondId = setInterval( blinkBG,500)
 }
 
+let blinkCounter = 0;
+function blinkBG() {
 
+}
 }
