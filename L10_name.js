@@ -1,7 +1,7 @@
 let username = "woonster"
 let colorPicker;
 let userInput;
-let age = 10
+let age = 10;
 let ageInput;
 function setup() {
     createCanvas(600,600);
