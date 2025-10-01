@@ -11,7 +11,7 @@ colorPicker.position(width/2+30,height/2+20);
 userInput = createInput();
 userInput.position(width/2, height/2+100);
 userInput.input(updateLabel); 
-ageInput = createInput();
+ageInput = createInput(number);
 ageInput.position(width/2, height/2+200);
 ageInput.input(updateAge); 
 }
