@@ -14,13 +14,14 @@ userInput.input(updateLabel);
 ageInput = createInput();
 ageInput.position(width/2, height/2+200);
 ageInput.input(updateAge); 
+}
 function updateLabel () {
 username = userInput.value();
 }
 function updateAge() {
 age = AgeInput.value();
 }
-}
+
 
 
 function draw() {
