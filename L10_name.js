@@ -35,5 +35,6 @@ function draw() {
     text("Enter name here:" , width/2-135, height /2+110);
     text("Choose Background:" , width/2-115, height /2+30);
     
+    
 
 }
