@@ -94,6 +94,7 @@ function doSomething() {
         secondId = setInterval( blinkBG,500)
     }
 }
+
 let blinkCounter = 0;
 function blinkBG() {
 blinkCounter++
