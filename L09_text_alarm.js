@@ -86,5 +86,7 @@ function mousePressed() {
 
 if (counter === 0) {
     clearInterval(objectId);
+    soundsFX.play()
+    secondID
 }
 }
