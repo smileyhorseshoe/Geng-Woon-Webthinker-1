@@ -85,7 +85,7 @@ function mousePressed() {
 }
 function doSomething() {
     counter--;
-    counter = 
+    counter = constrain(counter,0,5)
 }
 if (counter === 0) {
     clearInterval(objectId);
