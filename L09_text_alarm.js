@@ -83,7 +83,9 @@ function mousePressed() {
 
     }
 }
-
+function doSomething() {
+    
+}
 if (counter === 0) {
     clearInterval(objectId);
     soundsFX.play()
