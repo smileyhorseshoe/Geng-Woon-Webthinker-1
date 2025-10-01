@@ -6,7 +6,7 @@ function setup() {
     background("skyblue");
 colorPicker = createColorPicker();
 colorPicker.position(width/2-25,height/2)
-userInput = createInput
+userInput = createInput();
 }
 
 function draw() {
