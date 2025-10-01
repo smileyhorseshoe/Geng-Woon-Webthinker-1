@@ -2,7 +2,7 @@ function setup() {
     createCanvas(400,400);
     background("skyblue");
 colorPicker = createColorPicker();
-colorPicker
+colorPicker.position()
 }
 
 function draw() {
