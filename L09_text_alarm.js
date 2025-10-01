@@ -84,7 +84,8 @@ function mousePressed() {
     }
 }
 function doSomething() {
-    
+    counter--;
+    counter = 
 }
 if (counter === 0) {
     clearInterval(objectId);
