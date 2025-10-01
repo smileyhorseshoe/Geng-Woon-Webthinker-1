@@ -1,10 +1,12 @@
 let username = "woonster"
 let colorPicker;
+let userInput;
 function setup() {
     createCanvas(600,600);
     background("skyblue");
 colorPicker = createColorPicker();
 colorPicker.position(width/2-25,height/2)
+userInput = createInput
 }
 
 function draw() {
