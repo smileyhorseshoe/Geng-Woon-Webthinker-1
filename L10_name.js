@@ -9,6 +9,8 @@ colorPicker.position(width/2+30,height/2+20)
 userInput = createInput();
 userInput.position(width/2, height/2+100)
 userInput.input(updateLabel); 
+userInput = createInput();
+userInput.position(width/2, height/2+100)
 function updateLabel () {
 username = userInput.value()
 }
