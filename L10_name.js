@@ -4,5 +4,6 @@ function setup() {
 }
 
 function draw() {
+    fill("white");
     rect
 }
