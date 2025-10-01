@@ -10,7 +10,8 @@ userInput = createInput();
 userInput.position(width/2, height/2+100)
 userInput.input(updateLabel); 
 userInput = createInput();
-userInput.position(width/2, height/2+100)
+userInput.position(width/2, height/2+200)
+userInput.input(updateLabel); 
 function updateLabel () {
 username = userInput.value()
 }
