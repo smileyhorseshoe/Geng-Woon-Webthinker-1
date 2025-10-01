@@ -23,7 +23,7 @@ function draw() {
     textAlign(CENTER,CENTER)
     text(username, width/2,150)
     text("Enter text here:" , width/2-115, height /2+105)
-    text("Choose Background:" , width/2, height /2)
+    text("Choose Background:" , width/2-9, height /2)
     
 
 }
