@@ -14,5 +14,5 @@ function draw() {
     fill("black")
     textSize(32)
     textAlign(CENTER,CENTER)
-    text("Your Name", width/2,150)
+    text(username, width/2,150)
 }
