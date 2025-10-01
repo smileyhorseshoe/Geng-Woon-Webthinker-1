@@ -11,12 +11,12 @@ userInput = createInput();
 userInput.position(width/2, height/2+100)
 userInput.input(updateLabel); 
 AgeInput = createInput();
-AgeInput.position(width/2, height/2+200)
+AgeInput.position(width/2, height/2+200);
 AgeInput.input(updateAge); 
 function updateLabel () {
-username = userInput.value()
+username = userInput.value();
 function updateAge() {
-age = AgeInput.value()
+age = AgeInput.value();
 }
 }
 }
@@ -24,13 +24,13 @@ age = AgeInput.value()
 function draw() {
     background(colorPicker.value());
     fill("white");
-    rect(100,100,400,200,25)
-    fill("black")
-    textSize(32)
-    textAlign(CENTER,CENTER)
-    text(username, width/2,150)
-    text("Enter name here:" , width/2-135, height /2+110)
-    text("Choose Background:" , width/2-115, height /2+30)
+    rect(100,100,400,200,25);
+    fill("black");
+    textSize(32);
+    textAlign(CENTER,CENTER);
+    text(username, width/2,150);
+    text("Enter name here:" , width/2-135, height /2+110);
+    text("Choose Background:" , width/2-115, height /2+30);
     
 
 }
