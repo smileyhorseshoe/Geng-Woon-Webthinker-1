@@ -5,8 +5,8 @@ let adjective;
 let adverb;
 let place;
 let story = "e.g. dog";
-let story1 = "long long long time ago..."
-let story2 = "long long long time ago...";
+let story1 = "e.g. jump"
+let story2 = "e.g. happy";
 let story3 = "long long long time ago...";
 let story4 = "long long long time ago..."
 
