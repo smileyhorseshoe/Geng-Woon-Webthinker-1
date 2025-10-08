@@ -62,9 +62,9 @@ text(story3,width/2,290)
 text(story4,width/2,310)
 }
 function draw() {
-text("Enter a noun", 50,350)
-text("Enter a verb", 50,400)
-text("Enter a adjective", 50,450)
-text("Enter an adverb", 50,500)
-text("Enter a place",50,550)
+text("Enter a noun", 50,100)
+text("Enter a verb", 50,150)
+text("Enter a adjective", 50,200)
+text("Enter an adverb", 50,250)
+text("Enter a place",50,300)
 }
