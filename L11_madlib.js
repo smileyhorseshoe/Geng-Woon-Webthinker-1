@@ -18,8 +18,8 @@ function setup() {
     inputVerb = createInput(story1,"text")
     inputVerb.position(150,140)
     inputVerb.size(300)
-    inputAdjective = 
-
+    inputAdjective = createInput(story2,"text")
+    input
     button1 = createButton("Click on Me");
     button1.position(50,300);
     button1.size(100,50);
