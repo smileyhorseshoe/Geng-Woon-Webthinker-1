@@ -53,5 +53,5 @@ function draw() {
 text("Enter a noun", 50,100)
 text("Enter a verb", 50,150)
 text("Enter a adjective", 50,200)
-text("Enter an adverb,", 50,250)
+text("Enter an adverb", 50,250)
 }
