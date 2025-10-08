@@ -12,6 +12,8 @@ function setup() {
     inputSomeText = createInput(story,"text");
     inputSomeText.position(50,50);
     inputSomeText.size(500,100)
+    button1 = createButton("Click on Me")
+    button1.position(50,100)
 }
 function draw() {
 
