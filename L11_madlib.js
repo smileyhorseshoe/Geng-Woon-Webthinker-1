@@ -56,10 +56,10 @@ function updateStory4() {
     story4 = inputPlace.value
 }
 textAlign(CENTER,CENTER)
-text(story,width/2,250)
-text(story2,width/2,270)
-text(story3,width/2,290)
-text(story4,width/2,310)
+text(story,width/2,350)
+text(story2,width/2,370)
+text(story3,width/2,390)
+text(story4,width/2,410)
 }
 function draw() {
 text("Enter a noun", 50,100)
