@@ -38,4 +38,5 @@ text(story,width/2,270)
 function draw() {
 text("Enter a noun", 50,100)
 text("Enter a verb", 50,150)
+text("Enter a adjective", 50,200)
 }
