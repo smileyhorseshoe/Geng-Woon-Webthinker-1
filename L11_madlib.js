@@ -32,7 +32,7 @@ function setup() {
     inputPlace.position(150,290)
     inputAdverb.size(300)
     button1 = createButton("Click on Me");
-    button1.position(50,300);
+    button1.position(50,325);
     button1.size(100,50);
     button1.mousePressed(updateStory);
 }
