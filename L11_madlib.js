@@ -1,6 +1,6 @@
 let inputSomeText;
 let button1;
-let story;
+let story = ;
 
 
 
