@@ -18,6 +18,7 @@ function setup() {
     button1.mousePressed(updateStory)
 }
 function updateStory() {
+    story = inputSomeText.value();
     
 }
 function draw() {
