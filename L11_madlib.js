@@ -14,7 +14,7 @@ function setup() {
     inputSomeText.position(150,90);
     inputSomeText.size(300);
     inputVerb = createInput(story,"text")
-    inputVerb.position(150,120)
+    inputVerb.position(150,140)
     inputVerb.size(300)
 
     button1 = createButton("Click on Me");
