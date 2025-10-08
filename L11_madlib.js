@@ -2,6 +2,7 @@ let inputSomeText;
 let button1;
 let verb;
 let story = "long long long time ago...";
+let story1; 
 
 
 
