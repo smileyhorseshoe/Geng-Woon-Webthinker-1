@@ -62,6 +62,7 @@ text(story3,width/2,390)
 text(story4,width/2,410)
 }
 function draw() {
+    background("skyblue")
 text("Enter a noun", 50,100)
 text("Enter a verb", 50,150)
 text("Enter a adjective", 50,200)
