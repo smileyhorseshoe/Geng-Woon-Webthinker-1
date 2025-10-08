@@ -7,12 +7,13 @@ let place;
 let story = "long long long time ago...";
 let story1 = "long long long time ago..."
 let story2 = "long long long time ago...";
+let story3 = "long long long time ago..."
 
 
 
 
 function setup() {
-    createCanvas(600,400);
+    createCanvas(600,600);
     background("skyblue");
     inputSomeText = createInput(story,"text");
     inputSomeText.position(150,90);
