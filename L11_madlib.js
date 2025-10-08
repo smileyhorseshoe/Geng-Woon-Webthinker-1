@@ -13,7 +13,7 @@ function setup() {
     inputSomeText = createInput(story,"text");
     inputSomeText.position(150,90);
     inputSomeText.size(300);
-    inputVerb
+    inputVerb = createInput(story,"text")
     button1 = createButton("Click on Me");
     button1.position(50,300);
     button1.size(100,50);
