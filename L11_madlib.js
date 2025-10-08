@@ -7,7 +7,7 @@ let place;
 let story = "e.g. dog";
 let story1 = "e.g. jump"
 let story2 = "e.g. happy";
-let story3 = "long long long time ago...";
+let story3 = "e.g. angrily";
 let story4 = "long long long time ago..."
 
 
