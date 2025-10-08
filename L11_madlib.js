@@ -11,7 +11,7 @@ function setup() {
     background("skyblue");
     inputSomeText = createInput(story,"text");
     inputSomeText.position(50,50);
-    inputSomeText.input(updateLabel); 
+    inputSomeText.size(500,100)
 }
 function draw() {
 
