@@ -18,6 +18,7 @@ function setup() {
     button1.mousePressed(updateStory);
 }
 function updateStory() {
+    background("skyblue")
     story = inputSomeText.value();
 textAlign(CENTER,CENTER)
 text(story,300,250)
