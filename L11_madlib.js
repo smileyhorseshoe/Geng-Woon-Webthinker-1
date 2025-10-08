@@ -2,7 +2,7 @@ let inputSomeText;
 let button1;
 let verb;
 let story = "long long long time ago...";
-let story1; 
+let story1 = "long long long time ago.."
 
 
 
@@ -14,7 +14,7 @@ function setup() {
     inputSomeText = createInput(story,"text");
     inputSomeText.position(150,90);
     inputSomeText.size(300);
-    inputVerb = createInput(story,"text")
+    inputVerb = createInput(story1,"text")
     inputVerb.position(150,140)
     inputVerb.size(300)
 
