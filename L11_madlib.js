@@ -20,6 +20,7 @@ function setup() {
     inputVerb.size(300)
     inputAdjective = createInput(story2,"text")
     inputAdjective.position(150,190)
+    inputAdjective.size(300)
     button1 = createButton("Click on Me");
     button1.position(50,300);
     button1.size(100,50);
@@ -32,6 +33,7 @@ function updateStory1() {
     background("skyblue")
     story1 = inputVerb.value();
 }
+
 textAlign(CENTER,CENTER)
 text(story,width/2,250)
 text(story,width/2,270)
