@@ -43,7 +43,7 @@ function updateStory() {
     story2 = inputAdjective.value();
     story3 = inputAdverb.value();
     story4 = inputPlace.value();
-textAlign(CENTER,CENTER)
+    textAlign(CENTER,CENTER)
 text(story,width/2,350)
 text(story2,width/2,370)
 text(story3,width/2,390)
