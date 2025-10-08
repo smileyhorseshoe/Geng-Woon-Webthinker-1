@@ -25,7 +25,7 @@ function setup() {
     inputAdjective = createInput(story2,"text")
     inputAdjective.position(150,190)
     inputAdjective.size(300)
-    input
+    inputAdverb
     button1 = createButton("Click on Me");
     button1.position(50,300);
     button1.size(100,50);
