@@ -40,7 +40,8 @@ function updateStory() {
     background("skyblue")
     story = inputSomeText.value();
     story1 = inputVerb.value();
-    story2 =
+    story2 = inputAdjective.value();
+    story3 = inpit
 textAlign(CENTER,CENTER)
 text(story,width/2,350)
 text(story2,width/2,370)
