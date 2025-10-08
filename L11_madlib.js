@@ -49,11 +49,11 @@ function updateStory2() {
 }
 function updateStory3() {
     background("skyblue")
-    story3 = inputVerb.value
+    story3 = inputVerb.value()
 }
 function updateStory4() {
     background("skyblue")
-    story4 = inputPlace.value
+    story4 = inputPlace.value()
 }
 textAlign(CENTER,CENTER)
 text(story,width/2,350)
