@@ -1,7 +1,9 @@
 let inputSomeText;
 let button1;
 let verb;
-let adjective
+let adjective;
+let adverb;
+let place;
 let story = "long long long time ago...";
 let story1 = "long long long time ago..."
 let story2 = "long long long time ago..."
