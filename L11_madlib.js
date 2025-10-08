@@ -21,7 +21,7 @@ function updateStory() {
     background("skyblue")
     story = inputSomeText.value();
 textAlign(CENTER,CENTER)
-text(story,300,250)
+text(story,width/2,250)
 }
 function draw() {
 
