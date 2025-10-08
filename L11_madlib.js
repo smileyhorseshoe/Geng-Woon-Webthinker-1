@@ -24,5 +24,5 @@ textAlign(CENTER,CENTER)
 text(story,width/2,250)
 }
 function draw() {
-
+text("Enter a noun", 5)
 }
