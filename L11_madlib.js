@@ -20,7 +20,7 @@ function setup() {
 function updateStory() {
     story = inputSomeText.value();
 textAlign(CENTER,CENTER)
-text(story,50,350)
+text(story,50,150)
 }
 function draw() {
 
