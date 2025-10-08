@@ -10,7 +10,7 @@ function setup() {
     createCanvas(600,400);
     background("skyblue");
     inputSomeText = createInput(story,"text");
-    inputSomeText.position(50,50);
+    inputSomeText.position(50,150);
     inputSomeText.size(300);
     button1 = createButton("Click on Me");
     button1.position(50,100);
