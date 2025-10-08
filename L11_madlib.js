@@ -42,7 +42,7 @@ function updateStory() {
     story = inputVerb.value();
     story = inputAdjective.value();
     story = inputAdverb.value();
-    store4 = inputPlace.value();
+    story = inputPlace.value();
 textAlign(CENTER,CENTER)
 text(story,width/2,350)
 text(story2,width/2,370)
