@@ -39,8 +39,8 @@ function setup() {
 function updateStory() {
     background("skyblue")
     story = inputSomeText.value();
-    story = inputVerb.value();
-    story = inputAdjective.value();
+    story2 = inputVerb.value();
+    story3 = inputAdjective.value();
     story = inputAdverb.value();
     story = inputPlace.value();
 textAlign(CENTER,CENTER)
