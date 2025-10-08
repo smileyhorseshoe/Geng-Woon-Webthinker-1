@@ -7,7 +7,8 @@ let place;
 let story = "long long long time ago...";
 let story1 = "long long long time ago..."
 let story2 = "long long long time ago...";
-let story3 = "long long long time ago..."
+let story3 = "long long long time ago...";
+let story4 = "long long long time ago..."
 
 
 
@@ -24,6 +25,7 @@ function setup() {
     inputAdjective = createInput(story2,"text")
     inputAdjective.position(150,190)
     inputAdjective.size(300)
+    input
     button1 = createButton("Click on Me");
     button1.position(50,300);
     button1.size(100,50);
