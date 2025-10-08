@@ -40,6 +40,7 @@ function updateStory2() {
 textAlign(CENTER,CENTER)
 text(story,width/2,250)
 text(story,width/2,270)
+text(story,width/2,290)
 }
 function draw() {
 text("Enter a noun", 50,100)
