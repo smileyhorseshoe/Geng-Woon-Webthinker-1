@@ -2,8 +2,8 @@ let inputSomeText;
 let button1;
 let verb;
 let story = "long long long time ago...";
-let story1 = "long long long time ago.."
-
+let story1 = "long long long time ago..."
+let story2 = "long long long time ago..."
 
 
 
