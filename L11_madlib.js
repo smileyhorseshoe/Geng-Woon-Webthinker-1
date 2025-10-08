@@ -30,7 +30,7 @@ function setup() {
     inputAdverb.size(300)
     inputPlace = createInput(story4,"text")
     inputPlace.position(150,290)
-    inputAdverb.size(300)
+    inputPlace.size(300)
     button1 = createButton("Click on Me");
     button1.position(50,325);
     button1.size(100,50);
@@ -41,7 +41,8 @@ function updateStory() {
     story = inputSomeText.value();
     story1 = inputVerb.value();
     story2 = inputAdjective.value();
-    story3 = inpit
+    story3 = inputAdverb.value();
+    store4 = inputPlace.value();
 textAlign(CENTER,CENTER)
 text(story,width/2,350)
 text(story2,width/2,370)
