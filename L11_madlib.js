@@ -14,6 +14,7 @@ function setup() {
     inputSomeText.size(500,100)
     button1 = createButton("Click on Me")
     button1.position(50,100)
+    button1.size(100,50)
 }
 function draw() {
 
