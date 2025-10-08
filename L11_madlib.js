@@ -50,7 +50,7 @@ function updateStory3() {
 }
 function updateStory4() {
     background("skyblue")
-    story4 = inputVerb.value
+    story4 = inputPlace.value
 }
 textAlign(CENTER,CENTER)
 text(story,width/2,250)
