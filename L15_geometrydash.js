@@ -3,6 +3,6 @@ function setup() {
     background("black");
 }
 function draw() {
-    rect(500,650,10,10)
+    rect(0,650,700,10)
     fill("red")
 }
