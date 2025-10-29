@@ -12,6 +12,6 @@ function draw() {
 function drawSpike(x1,x2,y1,y2) {
     fill("blue")
     let x3 = (x1+x2)/2;
-    
-    triangle()
+
+    trianglex()
 }
