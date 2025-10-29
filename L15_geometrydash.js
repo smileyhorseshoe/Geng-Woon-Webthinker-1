@@ -5,9 +5,9 @@ function setup() {
 function draw() {
     rect(0,690,1000,10)
     fill("red")
-    drawSpike()
+    drawSpike(50,690,80,650,110,610)
 }
 function drawSpike() {
     fill("blue")
-    triangle(50,690,80,650,110,610)
+    triangle()
 }
