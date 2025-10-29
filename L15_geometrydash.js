@@ -5,6 +5,7 @@ function setup() {
 function draw() {
     rect(0,690,1000,10)
     fill("red")
+    
     // drawSpike(850,880,675,620)
     triangle(150,690,200,550,250,690)
 }
