@@ -3,7 +3,7 @@ function setup() {
     background("black");
 }
 function draw() {
-    rect(0,690,1000,10)
+    rect(width/2,height/2,100,100)
     fill("red")
     
     // drawSpike(850,880,675,620)
