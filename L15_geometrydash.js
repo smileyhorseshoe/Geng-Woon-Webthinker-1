@@ -5,4 +5,5 @@ function setup() {
 function draw() {
     rect(0,690,1000,10)
     fill("red")
+    fill("blue")
 }
