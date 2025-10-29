@@ -8,5 +8,5 @@ function draw() {
     fill("blue")
 }
 function drawSpike() {
-    triangle
+    triangle()
 }
