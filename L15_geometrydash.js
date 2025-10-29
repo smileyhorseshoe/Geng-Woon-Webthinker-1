@@ -6,7 +6,7 @@ function draw() {
     rect(0,600,100,100)
     fill("red")
     
-    drawSpike(300,350,300,1000)
+    drawSpike(300,350,1000,1050)
     // triangle(150,690,200,550,250,690)
 }
 function drawSpike(x1,x2,y1,y2) {
