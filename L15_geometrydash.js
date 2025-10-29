@@ -9,5 +9,5 @@ function draw() {
 }
 function drawSpike() {
     fill("blue")
-    triangle(
+    triangle(50,690,80,650,110,610)
 }
